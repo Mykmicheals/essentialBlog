@@ -11,7 +11,7 @@ User = get_user_model()
 
 
 class UserSerializer(serializers.ModelSerializer):
-    posts = serializers.PrimaryKeyRelatedField(many=True, read_only=True)
+    posts = serializers.PrimaryKeyRelatedField(many=True, read_only=True,)
     comments = serializers.PrimaryKeyRelatedField(many=True, read_only=True)
 
     class Meta:
@@ -74,4 +74,10 @@ class NewsLetterEmailSerilizer(serializers.ModelSerializer):
 
     class Meta:
         model = NewsLetterEmail
+        fields = '__all__'
+
+
+class DescritionSerializer(serializers.ModelSerializer):
+    class Meta:
+        model = Description
         fields = '__all__'

@@ -17,6 +17,7 @@ urlpatterns = [
     path('comments/', CommentList.as_view()),
     path('comments/<int:pk>/', CommentDetail.as_view()),
     path('newsletter/', NewsletterEmail.as_view()),
+    path('description/', DescriptionView.as_view()),
     # path('category/', getCategories),
 
 ]

@@ -1,4 +1,5 @@
 
+from urllib.parse import parse_qs
 from django.http import HttpResponse, JsonResponse
 from django.db.models import F
 from rest_framework.parsers import MultiPartParser, FormParser, JSONParser
@@ -31,11 +32,18 @@ class UserDetail(generics.RetrieveUpdateDestroyAPIView):
 class PostList(generics.ListCreateAPIView):
     queryset = Post.objects.filter(status=1)
     serializer_class = PostSerializer
-    permission_classes = [permissions.IsAuthenticatedOrReadOnly]
-    parser_classes = [MultiPartParser, JSONParser, FormParser]
+    print(serializer_class)
+    # permission_classes = [permissions.IsAuthenticatedOrReadOnly]
+    # parser_classes = [MultiPartParser, JSONParser, FormParser]
 
     def perform_create(self, serializer):
-        serializer.save(owner=self.request.user)
+        if serializer.is_valid():
+            print(serializer)
+            serializer.save(owner=self.request.user)
+
+        else:
+            content = {'failure': ('Please Don"t crash my database.I beg you')}
+            return Response(content, status=status.HTTP_400_BAD_REQUEST)
 
 
 class SliderPostView(generics.ListCreateAPIView):
@@ -92,18 +100,7 @@ class NewsletterEmail(generics.CreateAPIView):
     queryset = NewsLetterEmail.objects.all()
     serializer_class = NewsLetterEmailSerilizer
 
-    # def post(self, request):
-    #     serializer = NewsLetterEmail(email=request.data)
 
-    #     if serializer.is_valid():
-    #         serializer.save()
-    #         return Response(data={'sucess': 'email succesfully added '}, status=status.HTTP_201_CREATED)
-    #     else:
-    #         return Response(data={'error': 'invalid email address '}, status=status.HTTP_400_BAD_REQUEST)
-
-
-# def getCategories(request):
-#     cat = Post.objects.filter(category__contains='sports')
-#     print(cat)
-#     serializer = PostSerializer(cat, many=True)
-#     return JsonResponse(serializer.data, safe=False)
+class DescriptionView(generics.ListCreateAPIView):
+    queryset = Description.objects.all()
+    serializer_class = DescritionSerializer

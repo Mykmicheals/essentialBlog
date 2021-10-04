@@ -1,4 +1,5 @@
 
+from ckeditor.fields import RichTextField
 from django.urls import reverse
 from unicodedata import category
 from django.utils.text import slugify
@@ -25,11 +26,11 @@ class Post(models.Model):
     category = models.ForeignKey(
         Categories, on_delete=models.CASCADE, null=True)
     title = models.CharField(max_length=100, blank=True,)
-    description = models.TextField(blank=True,)
+    description = RichTextField()
     slug = models.SlugField(unique=True, null=True, blank=True)
     owner = models.ForeignKey(
         User, related_name='posts', on_delete=models.CASCADE)
-    image = models.ImageField(upload_to='media', null=True)
+    image = models.ImageField(upload_to='media', null=True, blank=True)
     status = models.IntegerField(
         choices=STATUS, default=0, blank=True, null=True)
 
@@ -89,3 +90,7 @@ class NewsLetterEmail(models.Model):
 
     def __str__(self):
         return self.email
+
+
+class Description(models.Model):
+    description = RichTextField()
