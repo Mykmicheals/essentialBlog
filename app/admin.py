@@ -5,7 +5,7 @@ from django.contrib import admin
 from .models import *
 
 admin.site.register(Post)
-admin.site.register(AdminPost)
+# admin.site.register(AdminPost)
 admin.site.register(Comment)
 admin.site.register(SliderPost)
 admin.site.register(Categories)

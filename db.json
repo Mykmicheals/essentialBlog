@@ -1,0 +1,5840 @@
+[
+{
+    "model": "sessions.session",
+    "pk": "08wrrp4smxk55rz2e4rtdum2u2ouhlyk",
+    "fields": {
+        "session_data": ".eJxVjDEOwjAMRe-SGUUpSUzDyM4ZKtuxaQElUtNOiLtDpQ6w_vfef5kB12Uc1ibzMGVzNp05_G6E_JCygXzHcquWa1nmieym2J02e61Znpfd_TsYsY3fOpIAHFUj9JjIEyTvGVIOpOJdiKIRew4aXEfsWLt0Ck4T9ArsUxTz_gDv6zgf:1okLrS:fqct2nNMZN2uQYVvfxzcCEajGz_BzU7qlafOPfwXszc",
+        "expire_date": "2022-10-31T08:52:38.688"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "9zrc6s733qer804jdyj0kbikdv2vw2a4",
+    "fields": {
+        "session_data": ".eJxVjDEOwjAMRe-SGUUpSUzDyM4ZKtuxaQElUtNOiLtDpQ6w_vfef5kB12Uc1ibzMGVzNp05_G6E_JCygXzHcquWa1nmieym2J02e61Znpfd_TsYsY3fOpIAHFUj9JjIEyTvGVIOpOJdiKIRew4aXEfsWLt0Ck4T9ArsUxTz_gDv6zgf:1ok7uV:IvOopnz9_yLH_bwJPVxaE-YHkPU2qAYMc88lJwlOmmk",
+        "expire_date": "2022-10-30T17:58:51.570"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "etxsawh3rblp6b00smgx84vy92uaybo6",
+    "fields": {
+        "session_data": ".eJxVjDEOwjAMRe-SGUUpSUzDyM4ZKtuxaQElUtNOiLtDpQ6w_vfef5kB12Uc1ibzMGVzNp05_G6E_JCygXzHcquWa1nmieym2J02e61Znpfd_TsYsY3fOpIAHFUj9JjIEyTvGVIOpOJdiKIRew4aXEfsWLt0Ck4T9ArsUxTz_gDv6zgf:1ol73u:oKKro71aEfvQgnjL4xPnrJMid1_sbt5Sx0pTi4J5Nzc",
+        "expire_date": "2022-11-02T11:16:38.297"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "khduj74vblcvmvoub2aa2o7ocy84q7uf",
+    "fields": {
+        "session_data": ".eJxVjDEOwjAMRe-SGUUpSUzDyM4ZKtuxaQElUtNOiLtDpQ6w_vfef5kB12Uc1ibzMGVzNp05_G6E_JCygXzHcquWa1nmieym2J02e61Znpfd_TsYsY3fOpIAHFUj9JjIEyTvGVIOpOJdiKIRew4aXEfsWLt0Ck4T9ArsUxTz_gDv6zgf:1okk6W:e3zSmC8V1Og-BnEx1n7yvxlQaHPcRTr54Be6MZ7V6wA",
+        "expire_date": "2022-11-01T10:45:48.234"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "pu378vzahr92wpve1627fw6oxzgt7uw1",
+    "fields": {
+        "session_data": ".eJxVjDEOwjAMRe-SGUUpSUzDyM4ZKtuxaQElUtNOiLtDpQ6w_vfef5kB12Uc1ibzMGVzNp05_G6E_JCygXzHcquWa1nmieym2J02e61Znpfd_TsYsY3fOpIAHFUj9JjIEyTvGVIOpOJdiKIRew4aXEfsWLt0Ck4T9ArsUxTz_gDv6zgf:1okLSB:aPTi8t4F45YqBw46_RA-iUVLyv1HljdMb-nLXhTYjQs",
+        "expire_date": "2022-10-31T08:26:31.010"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "rtxwh2u2hrrfxvylzk6e5y5u6y9feg28",
+    "fields": {
+        "session_data": ".eJxVjDEOwjAMRe-SGUUpSUzDyM4ZKtuxaQElUtNOiLtDpQ6w_vfef5kB12Uc1ibzMGVzNp05_G6E_JCygXzHcquWa1nmieym2J02e61Znpfd_TsYsY3fOpIAHFUj9JjIEyTvGVIOpOJdiKIRew4aXEfsWLt0Ck4T9ArsUxTz_gDv6zgf:1okiH4:yipGrVL0q_b_IvU4b7YKD6_gpMBLHg8RKtXaoGTd06A",
+        "expire_date": "2022-11-01T08:48:34.244"
+    }
+},
+{
+    "model": "app.categories",
+    "pk": 1,
+    "fields": {
+        "name": "Tech"
+    }
+},
+{
+    "model": "app.categories",
+    "pk": 2,
+    "fields": {
+        "name": "Headline"
+    }
+},
+{
+    "model": "app.categories",
+    "pk": 4,
+    "fields": {
+        "name": "Sports"
+    }
+},
+{
+    "model": "app.categories",
+    "pk": 5,
+    "fields": {
+        "name": "Fashion"
+    }
+},
+{
+    "model": "app.categories",
+    "pk": 6,
+    "fields": {
+        "name": "Weather"
+    }
+},
+{
+    "model": "app.categories",
+    "pk": 7,
+    "fields": {
+        "name": "Politics"
+    }
+},
+{
+    "model": "app.categories",
+    "pk": 8,
+    "fields": {
+        "name": "Medicine"
+    }
+},
+{
+    "model": "app.categories",
+    "pk": 9,
+    "fields": {
+        "name": "Food"
+    }
+},
+{
+    "model": "app.categories",
+    "pk": 10,
+    "fields": {
+        "name": "Trending"
+    }
+},
+{
+    "model": "app.categories",
+    "pk": 11,
+    "fields": {
+        "name": "Global"
+    }
+},
+{
+    "model": "app.categories",
+    "pk": 12,
+    "fields": {
+        "name": "Lifestyle"
+    }
+},
+{
+    "model": "app.sliderpost",
+    "pk": 1,
+    "fields": {
+        "created": "2022-10-19T12:50:38.355",
+        "title": "Russia's President signs decree introducing further restrictions in Kherson, Zaporizhzhia, Donetsk a",
+        "description": "“Senior officials of the subjects of the Russian Federation should pay the necessary attention to the implementation of measures designed to ensure the safety of people, the protection and anti-terrorist protection of critical facilities, maintaining public order, increasing the stability of the economy, industry and expanding the production of means necessary for a special military operation,” Putin said.\r\n\r\nThis comes after Putin announced on Wednesday that he has signed a law introducing martial law in four Ukrainian regions the Kremlin has sought to annex, in violation of international law. The regions — Kherson, Zaporizhzhia, Donetsk and Luhansk — are not under full Russian control. Western nations have decried the annexations and vowed not to recognize them as Russian territory.\r\n\r\n“To coordinate the work of the heads of regions will receive the authority to create the appropriate headquarters. I instruct the government, the Ministry of Defense and other departments to provide them with all necessary assistance,” Putin added.\r\n\r\nPutin also said that he has instructed the government to establish a special council to coordinate the changes.\r\n\r\n“The council will include vice-premiers, representatives of law enforcement agencies, the socio-economic bloc of the government, the presidential administration, and the State Council, which will ensure close interaction with the regions,” he said.",
+        "image": "media/bg_3.jpeg"
+    }
+},
+{
+    "model": "app.sliderpost",
+    "pk": 2,
+    "fields": {
+        "created": "2022-10-19T12:51:34.374",
+        "title": "How the Gandhis went from 'Kennedys of India' to the political wilderness",
+        "description": "She was elected prime minister from 1966 to 1977, and again in 1980. But her years in office were marked with both personal tragedy – her son Sanjay died shortly into her second stint – and turbulence, owing, in part, to a war with Pakistan, droughts, famine and an economic crisis.\r\n\r\nFaced with growing discontent, Indira Gandhi proclaimed a controversial state of emergency in India for 21 months in 1975 – suspending basic liberties, imposing press censorship and imprisoning opposition members.\r\n\r\nHer years in power came to a tragic climax when, on October 31, 1984, she was shot dead at her home in New Delhi by her Sikh bodyguards, four months after she ordered Indian troops to storm the Golden Temple – one of Sikhism’s holiest shrines – to flush out separatists.\r\n\r\n“The mood of the nation changed following the assassination,” said Rasheed Kidwai, author of “Sonia, A Biography” and visiting Fellow with the Observer Research Foundation. “But the tragic part of it is, it has a law of diminishing returns. These days, not a lot of our young children know of the sacrifices and tough decisions that were made by her.”\r\n\r\nIndira Gandhi’s son, Rajiv, took over from her after her death.",
+        "image": "media/banner-bg.jpg"
+    }
+},
+{
+    "model": "app.sliderpost",
+    "pk": 3,
+    "fields": {
+        "created": "2022-10-19T12:52:51.328",
+        "title": "UK inflation back at 40-year high as food prices soar",
+        "description": "Rising food and energy costs drove UK inflation back to a 40-year high in September, but it could be nearing a peak as cash-strapped households pull back on spending amid broader economic turmoil.\r\n\r\nThe annual rate of inflation rose to 10.1% in September, up from 9.9% in the 12 months to August, the Office for National Statistics said on Wednesday. That returns it to July’s recent high.\r\n\r\nSoaring food prices were the largest single contributor to the acceleration in inflation, jumping 14.6% year-on-year, the ONS said.\r\n\r\nThe return to double-digit inflation will be worrying for the Bank of England, which meets on November 3 to set interest rates. Governor Andrew Bailey has said that a “stronger response” may be needed to get a handle on price rises.\r\n\r\nPeriod residential homes in a south London street, on 6th October 2022, in London, England. (Photo by Richard Baker / In Pictures via Getty Images)\r\nAre you a UK mortgage borrower hit hard by rising interest rates? Tell us your story\r\nThe central bank will evaluate rising price pressures against the government’s recent U-turns on unfunded tax cuts, which could help ease inflation in the coming months.\r\n\r\n“The dramatic scaling back of fiscal support by the new Chancellor will be seen as lowering medium-term inflation, and that’s what [Bank of England] policymakers will be more interested in,” James Smith, developed markets economist at Dutch bank ING, said in a note on Wednesday.\r\n\r\nThe bank now expects policymakers to hike interest rates by three-quarters of a percentage point next month, instead of by a full percentage point. ING economists think inflation is likely to peak this month and begin to ease in 2023, as supply chain bottlenecks improve and consumer demand flags.\r\n\r\nEnergy prices remain a big unknown, however, after Hunt said Monday that the government will universally cap prices only until April. More targeted support after that could trigger a fresh spike in energy bills for many households, fanning inflation once again in the spring.\r\n\r\nGoldman Sachs warned that inflation could leap to 11.9% year-over-year in April from its current forecast of 7.1% and “stay higher throughout 2023,” depending on what the government decides to do.\r\n\r\nRising prices come as wage growth continues to decline in Britain. Between June and August, average pay fell by 2.9% once inflation is taken into account, according to the ONS. That followed a decline of 3% between April and June, which was the biggest drop in real wages since records began more than",
+        "image": "media/truck_flipped.jpg"
+    }
+},
+{
+    "model": "app.newsletteremail",
+    "pk": 1,
+    "fields": {
+        "email": "bobby@gmail.com"
+    }
+},
+{
+    "model": "app.newsletteremail",
+    "pk": 2,
+    "fields": {
+        "email": "junior@gmail.com"
+    }
+},
+{
+    "model": "app.newsletteremail",
+    "pk": 3,
+    "fields": {
+        "email": "junior@gmail.com"
+    }
+},
+{
+    "model": "app.newsletteremail",
+    "pk": 4,
+    "fields": {
+        "email": "juniors@gmail.com"
+    }
+},
+{
+    "model": "user_auth.myuser",
+    "fields": {
+        "password": "pbkdf2_sha256$390000$9et68DmNPic3SXg2oBnkU0$MzpECDzDc+vOBenv+jv5EUPBzKnBhco5jN1H8QD6Z98=",
+        "last_login": "2022-10-19T11:16:38.075",
+        "is_superuser": true,
+        "first_name": "Micheal",
+        "last_name": "Andy",
+        "email": "myk@gmail.com",
+        "is_staff": true,
+        "is_active": true,
+        "date_joined": "2022-10-16T17:23:17.489",
+        "is_verified": true,
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "user_auth.myuser",
+    "fields": {
+        "password": "pbkdf2_sha256$390000$roAMpRPLeKqxWHeir5WiWV$mYc/9NdPXo2ezHOMwyJb1QmtODpdrvlwjxc76Qb8jsw=",
+        "last_login": "2022-10-17T08:53:51.729",
+        "is_superuser": false,
+        "first_name": "Gbenga",
+        "last_name": "Showunmi",
+        "email": "gbengalilmahn@yahoo.com",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2022-10-17T08:53:51.729",
+        "is_verified": true,
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "user_auth.myuser",
+    "fields": {
+        "password": "pbkdf2_sha256$390000$PhLvCSIk83skFnvxXWp3bt$KIW0hsVT7DSu14BjqVESwlH8WN4p1ihQ5gwKTiy57gA=",
+        "last_login": "2022-10-19T13:57:13.540",
+        "is_superuser": true,
+        "first_name": "gbenga",
+        "last_name": "boy",
+        "email": "gbenga@gmail.com",
+        "is_staff": true,
+        "is_active": true,
+        "date_joined": "2022-10-19T13:57:13.540",
+        "is_verified": true,
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "authtoken.token",
+    "pk": "6d2b88730c3a212ddf8686f97f9edd238e33bd98",
+    "fields": {
+        "user": [
+            "myk@gmail.com"
+        ],
+        "created": "2022-10-16T17:28:01.528"
+    }
+},
+{
+    "model": "authtoken.token",
+    "pk": "a47b93e6d30ea6d68b3db170b282996c43f0854d",
+    "fields": {
+        "user": [
+            "gbenga@gmail.com"
+        ],
+        "created": "2022-10-19T14:05:46.232"
+    }
+},
+{
+    "model": "authtoken.token",
+    "pk": "b4b8b77f00cf9fab99981dd5b12ba2ec9ef5a9bd",
+    "fields": {
+        "user": [
+            "gbengalilmahn@yahoo.com"
+        ],
+        "created": "2022-10-17T08:55:16.972"
+    }
+},
+{
+    "model": "app.comment",
+    "pk": 109,
+    "fields": {
+        "created": "2022-10-20T13:14:46.771",
+        "body": "osmohe big boy",
+        "owner": [
+            "gbenga@gmail.com"
+        ],
+        "post": 11
+    }
+},
+{
+    "model": "app.comment",
+    "pk": 110,
+    "fields": {
+        "created": "2022-10-20T14:34:02.812",
+        "body": "admin",
+        "owner": [
+            "gbenga@gmail.com"
+        ],
+        "post": 2
+    }
+},
+{
+    "model": "app.comment",
+    "pk": 112,
+    "fields": {
+        "created": "2022-10-21T08:33:37.893",
+        "body": "not me",
+        "owner": [
+            "gbengalilmahn@yahoo.com"
+        ],
+        "post": 2
+    }
+},
+{
+    "model": "app.post",
+    "pk": 2,
+    "fields": {
+        "created": "2022-10-16T18:10:38.875",
+        "category": 4,
+        "title": "Designing Vacuum Cleaners to Be Green While They Clean",
+        "description": "The critical field is one of the properties mentioned above, and it determines the breakdown voltage of a device; these two properties are related by the width of the drift region. For a given breakdown voltage, the higher the electric field, the shorter the width of the drift region. The critical field is one order of magnitude higher in GaN technology, which allows for much smaller devices.\r\n\r\nIn addition to the consideration on the breakdown voltage, enhancement-mode GaN transistors feature the two-dimensional electron gas (2DEG), which is formed between the GaN layer and a thin layer of AlGaN. The 2DEG’s high electron mobility lowers the device’s on-resistance, keeping its dimensions small.\r\n\r\nThe shorter width of the drift region, due to the higher critical field and the high electron mobility of the 2DEG, allows the use of lateral conduction devices. One of the advantages of lateral devices with respect to vertical conduction devices is that more devices can be integrated on the same substrate, such as half-bridge circuits.\r\n\r\nBesides FETs and half bridges, EPC introduced power integrated circuits (ICs), devices able to manage power conversion without the need for external gate drivers and that feature logic functions. The use of these logic-in, power-out devices makes designing power-conversion circuits easier and increases power density, as fewer external components are needed. An example of a typical power IC is reported in Figure 1.",
+        "slug": null,
+        "owner": [
+            "gbengalilmahn@yahoo.com"
+        ],
+        "image": "media/shutterstock_582155401-3.jpg",
+        "status": 1
+    }
+},
+{
+    "model": "app.post",
+    "pk": 3,
+    "fields": {
+        "created": "2022-10-16T20:06:58.428",
+        "category": 5,
+        "title": "Brushed DC Motor Programmable Speed Regulator",
+        "description": "Power Electronics News explores how to design a low-noise, high-performance brushed DC motor programmable speed regulator.Power Electronics News explores how to design a low-noise, high-performance brushed DC motor programmable speed regulator.Power Electronics News explores how to design a low-noise, high-performance brushed DC motor programmable speed regulator.Power Electronics News explores how to design a low-noise, high-performance brushed DC motor programmable speed regulator.Power Electronics News explores how to design a low-noise, high-performance brushed DC motor programmable speed regulator.Power Electronics News explores how to design a low-noise, high-performance brushed DC motor programmable speed regulator.Power Electronics News explores how to design a low-noise, high-performance brushed DC motor programmable speed regulator.Power Electronics News explores how to design a low-noise, high-performance brushed DC motor programmable speed regulator.Power Electronics News explores how to design a low-noise, high-performance brushed DC motor programmable speed regulator.Power Electronics News explores how to design a low-noise, high-performance brushed DC motor programmable speed regulator.Power Electronics News explores how to design a low-noise, high-performance brushed DC motor programmable speed regulator.Power Electronics News explores how to design a low-noise, high-performance brushed DC motor programmable speed regulator.Power Electronics News explores how to design a low-noise, high-performance brushed DC motor programmable speed regulator.Power Electronics News explores how to design a low-noise, high-performance brushed DC motor programmable speed regulator.Power Electronics News explores how to design a low-noise, high-performance brushed DC motor programmable speed regulator.Power Electronics News explores how to design a low-noise, high-performance brushed DC motor programmable speed regulator.Power Electronics News explores how to design a low-noise, high-performance brushed DC motor programmable speed regulator.Power Electronics News explores how to design a low-noise, high-performance brushed DC motor programmable speed regulator.Power Electronics News explores how to design a low-noise, high-performance brushed DC motor programmable speed regulator.Power Electronics News explores how to design a low-noise, high-performance brushed DC motor programmable speed regulator.Power Electronics News explores how to design a low-noise, high-performance brushed DC motor programmable speed regulator.",
+        "slug": null,
+        "owner": [
+            "gbengalilmahn@yahoo.com"
+        ],
+        "image": "media/Power-Electronics-News_May-2021_Final-Proposal_Cover.jpg",
+        "status": 1
+    }
+},
+{
+    "model": "app.post",
+    "pk": 9,
+    "fields": {
+        "created": "2022-10-18T11:40:09.807",
+        "category": 6,
+        "title": "Working Toward Sustainable Semiconductor Device Production",
+        "description": "Working Toward Sustainable Semiconductor Device ProductionWorking Toward Sustainable Semiconductor Device ProductionWorking Toward Sustainable Semiconductor Device ProductionWorking Toward Sustainable Semiconductor Device ProductionWorking Toward Sustainable Semiconductor Device ProductionWorking Toward Sustainable Semiconductor Device ProductionWorking Toward Sustainable Semiconductor Device ProductionWorking Toward Sustainable Semiconductor Device ProductionWorking Toward Sustainable Semiconductor Device ProductionWorking Toward Sustainable Semiconductor Device ProductionWorking Toward Sustainable Semiconductor Device ProductionWorking Toward Sustainable Semiconductor Device ProductionWorking Toward Sustainable Semiconductor Device ProductionWorking Toward Sustainable Semiconductor Device ProductionWorking Toward Sustainable Semiconductor Device ProductionWorking Toward Sustainable Semiconductor Device ProductionWorking Toward Sustainable Semiconductor Device ProductionWorking Toward Sustainable Semiconductor Device ProductionWorking Toward Sustainable Semiconductor Device ProductionWorking Toward Sustainable Semiconductor Device ProductionWorking Toward Sustainable Semiconductor Device ProductionWorking Toward Sustainable Semiconductor Device Production",
+        "slug": null,
+        "owner": [
+            "gbengalilmahn@yahoo.com"
+        ],
+        "image": "media/shutterstock_716849587.jpg",
+        "status": 1
+    }
+},
+{
+    "model": "app.post",
+    "pk": 10,
+    "fields": {
+        "created": "2022-10-18T11:40:57.212",
+        "category": null,
+        "title": "GaN ICs Drive Sustainability and Deliver CarbonNeutral Status",
+        "description": "Power Electronics News analyzes the role that GaN ICs can play in offering sustainable solutions with 10× lower CO2 footprint.Power Electronics News analyzes the role that GaN ICs can play in offering sustainable solutions with 10× lower CO2 footprint.Power Electronics News analyzes the role that GaN ICs can play in offering sustainable solutions with 10× lower CO2 footprint.Power Electronics News analyzes the role that GaN ICs can play in offering sustainable solutions with 10× lower CO2 footprint.Power Electronics News analyzes the role that GaN ICs can play in offering sustainable solutions with 10× lower CO2 footprint.Power Electronics News analyzes the role that GaN ICs can play in offering sustainable solutions with 10× lower CO2 footprint.Power Electronics News analyzes the role that GaN ICs can play in offering sustainable solutions with 10× lower CO2 footprint.Power Electronics News analyzes the role that GaN ICs can play in offering sustainable solutions with 10× lower CO2 footprint.Power Electronics News analyzes the role that GaN ICs can play in offering sustainable solutions with 10× lower CO2 footprint.Power Electronics News analyzes the role that GaN ICs can play in offering sustainable solutions with 10× lower CO2 footprint.",
+        "slug": null,
+        "owner": [
+            "myk@gmail.com"
+        ],
+        "image": "media/shutterstock_1693883815.jpg",
+        "status": 1
+    }
+},
+{
+    "model": "app.post",
+    "pk": 11,
+    "fields": {
+        "created": "2022-10-18T11:41:32.341",
+        "category": 2,
+        "title": "Power Electronics Week Insights: SiC Power Devices, Programmable Speed Regulator and More!",
+        "description": "Here’s a RoundUp of this week’s must-read articles – we’ll delve into the latest developments on SiC power devices and much more!Here’s a RoundUp of this week’s must-read articles – we’ll delve into the latest developments on SiC power devices and much more!Here’s a RoundUp of this week’s must-read articles – we’ll delve into the latest developments on SiC power devices and much more!Here’s a RoundUp of this week’s must-read articles – we’ll delve into the latest developments on SiC power devices and much more!Here’s a RoundUp of this week’s must-read articles – we’ll delve into the latest developments on SiC power devices and much more!Here’s a RoundUp of this week’s must-read articles – we’ll delve into the latest developments on SiC power devices and much more!Here’s a RoundUp of this week’s must-read articles – we’ll delve into the latest developments on SiC power devices and much more!Here’s a RoundUp of this week’s must-read articles – we’ll delve into the latest developments on SiC power devices and much more!Here’s a RoundUp of this week’s must-read articles – we’ll delve into the latest developments on SiC power devices and much more!Here’s a RoundUp of this week’s must-read articles – we’ll delve into the latest developments on SiC power devices and much more!",
+        "slug": null,
+        "owner": [
+            "gbengalilmahn@yahoo.com"
+        ],
+        "image": "media/shutterstock_1873566085.jpg",
+        "status": 1
+    }
+},
+{
+    "model": "app.post",
+    "pk": 12,
+    "fields": {
+        "created": "2022-10-18T11:42:11.920",
+        "category": 1,
+        "title": "The Demand and Supply of SiC Power Devices in Current and Future Technologies",
+        "description": "his article will present different approaches to improve the supply of SiC devices and meet the increasing demand for these power devices.his article will present different approaches to improve the supply of SiC devices and meet the increasing demand for these power devices.his article will present different approaches to improve the supply of SiC devices and meet the increasing demand for these power devices.his article will present different approaches to improve the supply of SiC devices and meet the increasing demand for these power devices.his article will present different approaches to improve the supply of SiC devices and meet the increasing demand for these power devices.his article will present different approaches to improve the supply of SiC devices and meet the increasing demand for these power devices.his article will present different approaches to improve the supply of SiC devices and meet the increasing demand for these power devices.his article will present different approaches to improve the supply of SiC devices and meet the increasing demand for these power devices.his article will present different approaches to improve the supply of SiC devices and meet the increasing demand for these power devices.his article will present different approaches to improve the supply of SiC devices and meet the increasing demand for these power devices.his article will present different approaches to improve the supply of SiC devices and meet the increasing demand for these power devices.his article will present different approaches to improve the supply of SiC devices and meet the increasing demand for these power devices.his article will present different approaches to improve the supply of SiC devices and meet the increasing demand for these power devices.his article will present different approaches to improve the supply of SiC devices and meet the increasing demand for these power devices.his article will present different approaches to improve the supply of SiC devices and meet the increasing demand for these power devices.his article will present different approaches to improve the supply of SiC devices and meet the increasing demand for these power devices.his article will present different approaches to improve the supply of SiC devices and meet the increasing demand for these power devices.",
+        "slug": null,
+        "owner": [
+            "gbengalilmahn@yahoo.com"
+        ],
+        "image": "media/shutterstock_1990855535.jpg",
+        "status": 1
+    }
+},
+{
+    "model": "app.post",
+    "pk": 13,
+    "fields": {
+        "created": "2022-10-18T11:43:02.995",
+        "category": 7,
+        "title": "Designing Vacuum Cleaners to Be Green While They Clean",
+        "description": "Power Electronics News explores vacuum cleaner design and presents an overview of energy-efficient options.Power Electronics News explores vacuum cleaner design and presents an overview of energy-efficient options.Power Electronics News explores vacuum cleaner design and presents an overview of energy-efficient options.Power Electronics News explores vacuum cleaner design and presents an overview of energy-efficient options.Power Electronics News explores vacuum cleaner design and presents an overview of energy-efficient options.Power Electronics News explores vacuum cleaner design and presents an overview of energy-efficient options.Power Electronics News explores vacuum cleaner design and presents an overview of energy-efficient options.Power Electronics News explores vacuum cleaner design and presents an overview of energy-efficient options.Power Electronics News explores vacuum cleaner design and presents an overview of energy-efficient options.Power Electronics News explores vacuum cleaner design and presents an overview of energy-efficient options.Power Electronics News explores vacuum cleaner design and presents an overview of energy-efficient options.Power Electronics News explores vacuum cleaner design and presents an overview of energy-efficient options.Power Electronics News explores vacuum cleaner design and presents an overview of energy-efficient options.Power Electronics News explores vacuum cleaner design and presents an overview of energy-efficient options.Power Electronics News explores vacuum cleaner design and presents an overview of energy-efficient options.Power Electronics News explores vacuum cleaner design and presents an overview of energy-efficient options.Power Electronics News explores vacuum cleaner design and presents an overview of energy-efficient options.",
+        "slug": null,
+        "owner": [
+            "myk@gmail.com"
+        ],
+        "image": "media/shutterstock_2185960965.jpg",
+        "status": 1
+    }
+},
+{
+    "model": "app.post",
+    "pk": 17,
+    "fields": {
+        "created": "2022-10-19T14:31:53.201",
+        "category": 6,
+        "title": "Ukraine war: Russians start leaving Ukraine's Kherson city",
+        "description": "Vladimir Saldo said all Russian-appointed departments and ministries would cross the Dnieper river.\r\n\r\nSome 50-60,000 civilians would also leave in an \"organised, gradual displacement\", he said earlier.\r\n\r\nUkraine has called on residents to ignore the Russian move.\r\n\r\nThe head of Kherson's regional administration said Russia wanted to take civilians hostage and use them as human shields. The transfer or deportation of civilians by an occupying power from occupied territory is considered a war crime.\r\n\r\nIn a separate development, Russia's Vladimir Putin said he had signed a decree imposing martial law on four Ukrainian regions, including Kherson, which Moscow annexed last month in a move rejected as illegal by the international community.\r\n\r\nHe told Russia's Security Council that it would give regional leaders additional powers to maintain social order and safeguard important facilities.\r\n\r\nOn Tuesday night, residents in Kherson started receiving text messages, urging them to evacuate immediately to avoid shelling of residential areas by Ukrainian forces.\r\n\r\nThe messages said transport across the Dnipro River would be available from 07:00 on Wednesday.\r\n\r\n\"They are told to evacuate because the evil Ukrainians are going to shell the city,\" one resident told the BBC, asking to remain anonymous.\r\n\r\n\"People are panicking because of propaganda.\"\r\n\r\nRussian TV footage on Wednesday showed a number of people gathering near the west bank of the Dnieper. As they queued for boats, it was not clear how many were leaving.\r\n\r\nBut Ukrainian officials have questioned whether large numbers of people are actually being evacuated, suggesting that images of a crowd assembled by the river are largely for show.\r\n\r\nSerhiy Khlan, an aide to the ousted head of the Kherson region, suggested the \"deportations theatre\" could be acting as cover for a much bigger Russian move: a complete military evacuation from the west bank of the river.\r\n\r\n\"I foresee the withdrawal of troops,\" he said, adding that he expected Russian forces to attempt to destroy the city after leaving.\r\n\r\nRussia, he said, was planning to establish a new capital for the Kherson region at Henichesk, close to the Crimean Peninsula, adding that banks and offices related to the occupation of Kherson had already been evacuated.",
+        "slug": null,
+        "owner": [
+            "myk@gmail.com"
+        ],
+        "image": "media/2-min.png",
+        "status": 0
+    }
+},
+{
+    "model": "app.post",
+    "pk": 18,
+    "fields": {
+        "created": "2022-10-19T14:33:09.767",
+        "category": 5,
+        "title": "Elnaz Rekabi: Crowd greet Iranian climber who broke hijab rule on return",
+        "description": "Elnaz Rekabi, 33, broke Iran's strict dress code - but later said her hijab had fallen off \"inadvertently\".\r\n\r\nMany are sceptical about the reason she gave in an Instagram post and repeated in a state TV interview at the airport, believing it was made under duress.\r\n\r\nIran is gripped by protests against the hijab laws and its clerical leaders.\r\n\r\nIranian women are required to cover their hair with a headscarf and their arms and legs with loose clothing. Female athletes must also abide by the rules when they are officially representing Iran in competitions abroad.\r\n\r\nMs Rekabi flew in from South Korea before dawn on Wednesday, where she had been competing at the IFSC Asian Championships.",
+        "slug": null,
+        "owner": [
+            "gbengalilmahn@yahoo.com"
+        ],
+        "image": "media/stn1.jpg",
+        "status": 0
+    }
+},
+{
+    "model": "app.post",
+    "pk": 19,
+    "fields": {
+        "created": "2022-10-19T14:33:53.407",
+        "category": 4,
+        "title": "Five hours' sleep is tipping point for bad health",
+        "description": "At least five hours sleep a night may cut the over-50s' chances of multiple chronic health problems, researchers say.\r\n\r\nIll health can disrupt sleep - but poor sleep may also be a forewarning or a risk itself, they say.\r\n\r\nThere is evidence sleep helps restore, rest and rejuvenate the body and mind - but why the \"golden slumber number\" might matter remains unclear.\r\n\r\nThe PLoS Medicine study tracked the health and sleep of UK civil servants.\r\n\r\nAll of the about 8,000 participants were asked: How many hours of sleep do you have on an average weeknight?\"\r\n\r\nSome also wore a wrist-watch sleep tracker.\r\n\r\nAnd they were checked for chronic conditions, including diabetes, cancer and heart disease, over two decades of follow-up:\r\n\r\nThose who slept five hours or less around the age of 50 had a 30% greater risk of multiple ailments than those who slept seven hours\r\nShorter sleep at 50 was also associated with a higher risk of death during the study period, mainly linked to the increased risk of chronic disease\r\nExperts generally recommend about seven or eight hours, the researchers, from University College London and Paris Cité University, say.\r\n\r\nWhy do we sleep?\r\nScientists do not know for sure, but it is clear that sleep helps the brain process memories and is good for mood, concentration and metabolism.",
+        "slug": null,
+        "owner": [
+            "gbenga@gmail.com"
+        ],
+        "image": "media/shutterstock_2185960965_iHUgefh.jpg",
+        "status": 0
+    }
+},
+{
+    "model": "app.post",
+    "pk": 20,
+    "fields": {
+        "created": "2022-10-19T14:43:31.931",
+        "category": 2,
+        "title": "Sweden ditches 'feminist foreign policy",
+        "description": "Sweden's new foreign minister has ditched its pioneering \"feminist foreign policy\", saying the label has become more important than its content.\r\n\r\nBut Tobias Billstrom said \"we will always stand for gender equality\".\r\n\r\nThe previous left-wing government launched the policy in 2014, becoming the first in the world to put gender equality at the heart of its dealings with other nations.\r\n\r\nThe self-labelled \"feminist government\" had ruffled feathers globally.\r\n\r\nMr Billstrom announced the radical policy shift moments after Swedish Prime Minister, Ulf Kristerrson, presented his new government appointments on Tuesday.\r\n\r\n\"Gender equality is a core value for Sweden and this government, but we will\r\n\r\nSweden's new foreign minister has ditched its pioneering \"feminist foreign policy\", saying the label has become more important than its content.\r\n\r\nBut Tobias Billstrom said \"we will always stand for gender equality\".\r\n\r\nThe previous left-wing government launched the policy in 2014, becoming the first in the world to put gender equality at the heart of its dealings with other nations.\r\n\r\nThe self-labelled \"feminist government\" had ruffled feathers globally.\r\n\r\nMr Billstrom announced the radical policy shift moments after Swedish Prime Minister, Ulf Kristerrson, presented his new government appointments on Tuesday.\r\n\r\n\"Gender equality is a core value for Sweden and this government, but we will",
+        "slug": null,
+        "owner": [
+            "gbenga@gmail.com"
+        ],
+        "image": "media/banner2.jpg",
+        "status": 0
+    }
+},
+{
+    "model": "app.post",
+    "pk": 21,
+    "fields": {
+        "created": "2022-10-19T15:00:48.521",
+        "category": 1,
+        "title": "Let's try this out",
+        "description": "But my side will be ready soon sha. \r\nWe on it\r\nI decided to quit my jobs immediately when I see that magazine template. My millionaire story is pretty simple, and you can do it by yourself with time, ideas and passion. Da searches richard venenatis feugiat season airlines rice golden. Donec da argentina blind nokia ultrices platea love scotish got. Blandit croatia adipiscing aliquam lobortis gabriel tempor ipsum battles. Ultricies lobortis ligula, eget quis tellus natoque boss. Vestibulum eleifend orci baby dignissim a ipsum massa bars. Mi semper jared and eu cursus tracy lacinia away ornare dis. Tortor kiss challenge proin cras bars, dignissim vulputate hours robotic. More feugiat tolstoy commercial crimea shirley plus bars rutrum. Bacall ramis suarez philae bend nam velit eu commodo donald.",
+        "slug": null,
+        "owner": [
+            "gbengalilmahn@yahoo.com"
+        ],
+        "image": "media/bank-app-landing-page_5Ixd3Cr.png",
+        "status": 0
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 1,
+    "fields": {
+        "action_time": "2022-10-17T08:33:19.775",
+        "user": [
+            "myk@gmail.com"
+        ],
+        "content_type": [
+            "app",
+            "post"
+        ],
+        "object_id": "2",
+        "object_repr": "Post object (2)",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Image\", \"Status\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 2,
+    "fields": {
+        "action_time": "2022-10-17T08:52:47.829",
+        "user": [
+            "myk@gmail.com"
+        ],
+        "content_type": [
+            "user_auth",
+            "myuser"
+        ],
+        "object_id": "2",
+        "object_repr": "gbengalilmahn@yahoo.com",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 3,
+    "fields": {
+        "action_time": "2022-10-17T11:59:39.169",
+        "user": [
+            "myk@gmail.com"
+        ],
+        "content_type": [
+            "user_auth",
+            "myuser"
+        ],
+        "object_id": "14",
+        "object_repr": "Gbalilmahn@yahoo.com",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 4,
+    "fields": {
+        "action_time": "2022-10-17T11:59:39.325",
+        "user": [
+            "myk@gmail.com"
+        ],
+        "content_type": [
+            "user_auth",
+            "myuser"
+        ],
+        "object_id": "13",
+        "object_repr": "gben@yahoo.com",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 5,
+    "fields": {
+        "action_time": "2022-10-17T11:59:39.425",
+        "user": [
+            "myk@gmail.com"
+        ],
+        "content_type": [
+            "user_auth",
+            "myuser"
+        ],
+        "object_id": "6",
+        "object_repr": "gbengalilma@yahoo.com",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 6,
+    "fields": {
+        "action_time": "2022-10-17T11:59:39.537",
+        "user": [
+            "myk@gmail.com"
+        ],
+        "content_type": [
+            "user_auth",
+            "myuser"
+        ],
+        "object_id": "5",
+        "object_repr": "gbengalilmah@yahoo.com",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 7,
+    "fields": {
+        "action_time": "2022-10-17T11:59:39.670",
+        "user": [
+            "myk@gmail.com"
+        ],
+        "content_type": [
+            "user_auth",
+            "myuser"
+        ],
+        "object_id": "7",
+        "object_repr": "gbengaliln@yahoo.com",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 8,
+    "fields": {
+        "action_time": "2022-10-17T11:59:39.806",
+        "user": [
+            "myk@gmail.com"
+        ],
+        "content_type": [
+            "user_auth",
+            "myuser"
+        ],
+        "object_id": "15",
+        "object_repr": "gbengalin@yahoo.com",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 9,
+    "fields": {
+        "action_time": "2022-10-17T11:59:39.905",
+        "user": [
+            "myk@gmail.com"
+        ],
+        "content_type": [
+            "user_auth",
+            "myuser"
+        ],
+        "object_id": "9",
+        "object_repr": "gbengall@yahoo.com",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 10,
+    "fields": {
+        "action_time": "2022-10-17T11:59:40.417",
+        "user": [
+            "myk@gmail.com"
+        ],
+        "content_type": [
+            "user_auth",
+            "myuser"
+        ],
+        "object_id": "8",
+        "object_repr": "gbengalln@yahoo.com",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 11,
+    "fields": {
+        "action_time": "2022-10-17T11:59:40.573",
+        "user": [
+            "myk@gmail.com"
+        ],
+        "content_type": [
+            "user_auth",
+            "myuser"
+        ],
+        "object_id": "4",
+        "object_repr": "gbengaln@yahoo.com",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 12,
+    "fields": {
+        "action_time": "2022-10-17T11:59:40.662",
+        "user": [
+            "myk@gmail.com"
+        ],
+        "content_type": [
+            "user_auth",
+            "myuser"
+        ],
+        "object_id": "11",
+        "object_repr": "gbengamahn@yahoo.com",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 13,
+    "fields": {
+        "action_time": "2022-10-17T11:59:40.795",
+        "user": [
+            "myk@gmail.com"
+        ],
+        "content_type": [
+            "user_auth",
+            "myuser"
+        ],
+        "object_id": "12",
+        "object_repr": "gbenghn@yahoo.com",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 14,
+    "fields": {
+        "action_time": "2022-10-17T11:59:40.895",
+        "user": [
+            "myk@gmail.com"
+        ],
+        "content_type": [
+            "user_auth",
+            "myuser"
+        ],
+        "object_id": "10",
+        "object_repr": "ngalilmahn@yahoo.com",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 15,
+    "fields": {
+        "action_time": "2022-10-17T11:59:41.561",
+        "user": [
+            "myk@gmail.com"
+        ],
+        "content_type": [
+            "user_auth",
+            "myuser"
+        ],
+        "object_id": "14",
+        "object_repr": "Gbalilmahn@yahoo.com",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 16,
+    "fields": {
+        "action_time": "2022-10-17T11:59:41.674",
+        "user": [
+            "myk@gmail.com"
+        ],
+        "content_type": [
+            "user_auth",
+            "myuser"
+        ],
+        "object_id": "13",
+        "object_repr": "gben@yahoo.com",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 17,
+    "fields": {
+        "action_time": "2022-10-17T11:59:41.763",
+        "user": [
+            "myk@gmail.com"
+        ],
+        "content_type": [
+            "user_auth",
+            "myuser"
+        ],
+        "object_id": "6",
+        "object_repr": "gbengalilma@yahoo.com",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 18,
+    "fields": {
+        "action_time": "2022-10-17T11:59:41.863",
+        "user": [
+            "myk@gmail.com"
+        ],
+        "content_type": [
+            "user_auth",
+            "myuser"
+        ],
+        "object_id": "5",
+        "object_repr": "gbengalilmah@yahoo.com",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 19,
+    "fields": {
+        "action_time": "2022-10-17T11:59:41.996",
+        "user": [
+            "myk@gmail.com"
+        ],
+        "content_type": [
+            "user_auth",
+            "myuser"
+        ],
+        "object_id": "7",
+        "object_repr": "gbengaliln@yahoo.com",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 20,
+    "fields": {
+        "action_time": "2022-10-17T11:59:42.085",
+        "user": [
+            "myk@gmail.com"
+        ],
+        "content_type": [
+            "user_auth",
+            "myuser"
+        ],
+        "object_id": "15",
+        "object_repr": "gbengalin@yahoo.com",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 21,
+    "fields": {
+        "action_time": "2022-10-17T11:59:42.175",
+        "user": [
+            "myk@gmail.com"
+        ],
+        "content_type": [
+            "user_auth",
+            "myuser"
+        ],
+        "object_id": "9",
+        "object_repr": "gbengall@yahoo.com",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 22,
+    "fields": {
+        "action_time": "2022-10-17T11:59:42.874",
+        "user": [
+            "myk@gmail.com"
+        ],
+        "content_type": [
+            "user_auth",
+            "myuser"
+        ],
+        "object_id": "8",
+        "object_repr": "gbengalln@yahoo.com",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 23,
+    "fields": {
+        "action_time": "2022-10-17T11:59:42.963",
+        "user": [
+            "myk@gmail.com"
+        ],
+        "content_type": [
+            "user_auth",
+            "myuser"
+        ],
+        "object_id": "4",
+        "object_repr": "gbengaln@yahoo.com",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 24,
+    "fields": {
+        "action_time": "2022-10-17T11:59:43.063",
+        "user": [
+            "myk@gmail.com"
+        ],
+        "content_type": [
+            "user_auth",
+            "myuser"
+        ],
+        "object_id": "11",
+        "object_repr": "gbengamahn@yahoo.com",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 25,
+    "fields": {
+        "action_time": "2022-10-17T11:59:43.185",
+        "user": [
+            "myk@gmail.com"
+        ],
+        "content_type": [
+            "user_auth",
+            "myuser"
+        ],
+        "object_id": "12",
+        "object_repr": "gbenghn@yahoo.com",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 26,
+    "fields": {
+        "action_time": "2022-10-17T11:59:43.286",
+        "user": [
+            "myk@gmail.com"
+        ],
+        "content_type": [
+            "user_auth",
+            "myuser"
+        ],
+        "object_id": "10",
+        "object_repr": "ngalilmahn@yahoo.com",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 27,
+    "fields": {
+        "action_time": "2022-10-17T12:19:07.701",
+        "user": [
+            "myk@gmail.com"
+        ],
+        "content_type": [
+            "user_auth",
+            "myuser"
+        ],
+        "object_id": "19",
+        "object_repr": "asdqgbengalilmahn@yahoo.com",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 28,
+    "fields": {
+        "action_time": "2022-10-17T12:19:07.849",
+        "user": [
+            "myk@gmail.com"
+        ],
+        "content_type": [
+            "user_auth",
+            "myuser"
+        ],
+        "object_id": "18",
+        "object_repr": "gbdw@gmail.com",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 29,
+    "fields": {
+        "action_time": "2022-10-17T12:19:07.951",
+        "user": [
+            "myk@gmail.com"
+        ],
+        "content_type": [
+            "user_auth",
+            "myuser"
+        ],
+        "object_id": "16",
+        "object_repr": "gbemahn@yahoo.com",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 30,
+    "fields": {
+        "action_time": "2022-10-17T12:19:08.071",
+        "user": [
+            "myk@gmail.com"
+        ],
+        "content_type": [
+            "user_auth",
+            "myuser"
+        ],
+        "object_id": "17",
+        "object_repr": "gbengalhn@yahoo.com",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 31,
+    "fields": {
+        "action_time": "2022-10-17T12:21:13.611",
+        "user": [
+            "myk@gmail.com"
+        ],
+        "content_type": [
+            "user_auth",
+            "myuser"
+        ],
+        "object_id": "20",
+        "object_repr": "asdscgbengalilmahn@yahoo.com",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 32,
+    "fields": {
+        "action_time": "2022-10-17T13:06:44.210",
+        "user": [
+            "myk@gmail.com"
+        ],
+        "content_type": [
+            "user_auth",
+            "myuser"
+        ],
+        "object_id": "25",
+        "object_repr": "asdwDWgbengalilmahn@yahoo.com",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 33,
+    "fields": {
+        "action_time": "2022-10-17T13:06:44.357",
+        "user": [
+            "myk@gmail.com"
+        ],
+        "content_type": [
+            "user_auth",
+            "myuser"
+        ],
+        "object_id": "21",
+        "object_repr": "aweffsefasfefgbengalilmahn@yahoo.com",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 34,
+    "fields": {
+        "action_time": "2022-10-17T13:06:44.458",
+        "user": [
+            "myk@gmail.com"
+        ],
+        "content_type": [
+            "user_auth",
+            "myuser"
+        ],
+        "object_id": "26",
+        "object_repr": "esdagbengalilmahn@yahoo.com",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 35,
+    "fields": {
+        "action_time": "2022-10-17T13:06:44.681",
+        "user": [
+            "myk@gmail.com"
+        ],
+        "content_type": [
+            "user_auth",
+            "myuser"
+        ],
+        "object_id": "22",
+        "object_repr": "gbengalilqwmahn@yahoo.com",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 36,
+    "fields": {
+        "action_time": "2022-10-17T13:06:44.792",
+        "user": [
+            "myk@gmail.com"
+        ],
+        "content_type": [
+            "user_auth",
+            "myuser"
+        ],
+        "object_id": "27",
+        "object_repr": "kjljkjgbengalilmahn@yahoo.com",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 37,
+    "fields": {
+        "action_time": "2022-10-17T13:06:44.903",
+        "user": [
+            "myk@gmail.com"
+        ],
+        "content_type": [
+            "user_auth",
+            "myuser"
+        ],
+        "object_id": "23",
+        "object_repr": "sddsgbengalilmahn@yahoo.com",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 38,
+    "fields": {
+        "action_time": "2022-10-17T13:06:45.025",
+        "user": [
+            "myk@gmail.com"
+        ],
+        "content_type": [
+            "user_auth",
+            "myuser"
+        ],
+        "object_id": "24",
+        "object_repr": "sdsdwgbengalilmahn@yahoo.com",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 39,
+    "fields": {
+        "action_time": "2022-10-18T08:50:43.144",
+        "user": [
+            "myk@gmail.com"
+        ],
+        "content_type": [
+            "app",
+            "post"
+        ],
+        "object_id": "4",
+        "object_repr": "",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 40,
+    "fields": {
+        "action_time": "2022-10-18T09:43:30.813",
+        "user": [
+            "myk@gmail.com"
+        ],
+        "content_type": [
+            "app",
+            "post"
+        ],
+        "object_id": "6",
+        "object_repr": "Second Post",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 41,
+    "fields": {
+        "action_time": "2022-10-18T09:43:30.943",
+        "user": [
+            "myk@gmail.com"
+        ],
+        "content_type": [
+            "app",
+            "post"
+        ],
+        "object_id": "7",
+        "object_repr": "Third Post",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 42,
+    "fields": {
+        "action_time": "2022-10-18T11:31:55.196",
+        "user": [
+            "myk@gmail.com"
+        ],
+        "content_type": [
+            "app",
+            "post"
+        ],
+        "object_id": "8",
+        "object_repr": "Third Post",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 43,
+    "fields": {
+        "action_time": "2022-10-18T11:32:05.788",
+        "user": [
+            "myk@gmail.com"
+        ],
+        "content_type": [
+            "app",
+            "post"
+        ],
+        "object_id": "5",
+        "object_repr": "Ronaldo",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 44,
+    "fields": {
+        "action_time": "2022-10-18T11:39:16.005",
+        "user": [
+            "myk@gmail.com"
+        ],
+        "content_type": [
+            "app",
+            "post"
+        ],
+        "object_id": "2",
+        "object_repr": "Designing Vacuum Cleaners to Be Green While They Clean",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Title\", \"Description\", \"Owner\", \"Image\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 45,
+    "fields": {
+        "action_time": "2022-10-18T11:40:09.808",
+        "user": [
+            "myk@gmail.com"
+        ],
+        "content_type": [
+            "app",
+            "post"
+        ],
+        "object_id": "9",
+        "object_repr": "Working Toward Sustainable Semiconductor Device Production",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 46,
+    "fields": {
+        "action_time": "2022-10-18T11:40:57.214",
+        "user": [
+            "myk@gmail.com"
+        ],
+        "content_type": [
+            "app",
+            "post"
+        ],
+        "object_id": "10",
+        "object_repr": "GaN ICs Drive Sustainability and Deliver CarbonNeutral Status",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 47,
+    "fields": {
+        "action_time": "2022-10-18T11:41:32.343",
+        "user": [
+            "myk@gmail.com"
+        ],
+        "content_type": [
+            "app",
+            "post"
+        ],
+        "object_id": "11",
+        "object_repr": "Power Electronics Week Insights: SiC Power Devices, Programmable Speed Regulator and More!",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 48,
+    "fields": {
+        "action_time": "2022-10-18T11:42:11.921",
+        "user": [
+            "myk@gmail.com"
+        ],
+        "content_type": [
+            "app",
+            "post"
+        ],
+        "object_id": "12",
+        "object_repr": "The Demand and Supply of SiC Power Devices in Current and Future Technologies",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 49,
+    "fields": {
+        "action_time": "2022-10-18T11:43:02.996",
+        "user": [
+            "myk@gmail.com"
+        ],
+        "content_type": [
+            "app",
+            "post"
+        ],
+        "object_id": "13",
+        "object_repr": "Designing Vacuum Cleaners to Be Green While They Clean",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 50,
+    "fields": {
+        "action_time": "2022-10-18T11:44:11.144",
+        "user": [
+            "myk@gmail.com"
+        ],
+        "content_type": [
+            "app",
+            "post"
+        ],
+        "object_id": "3",
+        "object_repr": "Brushed DC Motor Programmable Speed Regulator",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Title\", \"Description\", \"Owner\", \"Image\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 51,
+    "fields": {
+        "action_time": "2022-10-18T16:12:27.456",
+        "user": [
+            "myk@gmail.com"
+        ],
+        "content_type": [
+            "app",
+            "comment"
+        ],
+        "object_id": "1",
+        "object_repr": "Comment Nice first Project by Nice first Project",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 52,
+    "fields": {
+        "action_time": "2022-10-18T16:12:28.114",
+        "user": [
+            "myk@gmail.com"
+        ],
+        "content_type": [
+            "app",
+            "comment"
+        ],
+        "object_id": "2",
+        "object_repr": "Comment second post comment by second post comment",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 53,
+    "fields": {
+        "action_time": "2022-10-18T16:12:28.681",
+        "user": [
+            "myk@gmail.com"
+        ],
+        "content_type": [
+            "app",
+            "comment"
+        ],
+        "object_id": "3",
+        "object_repr": "Comment second post comment by second post comment",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 54,
+    "fields": {
+        "action_time": "2022-10-18T16:12:28.982",
+        "user": [
+            "myk@gmail.com"
+        ],
+        "content_type": [
+            "app",
+            "comment"
+        ],
+        "object_id": "4",
+        "object_repr": "Comment Dc motor is better than by Dc motor is better than",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 55,
+    "fields": {
+        "action_time": "2022-10-18T16:12:29.075",
+        "user": [
+            "myk@gmail.com"
+        ],
+        "content_type": [
+            "app",
+            "comment"
+        ],
+        "object_id": "5",
+        "object_repr": "Comment Nice article by Nice article",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 56,
+    "fields": {
+        "action_time": "2022-10-18T16:12:29.305",
+        "user": [
+            "myk@gmail.com"
+        ],
+        "content_type": [
+            "app",
+            "comment"
+        ],
+        "object_id": "6",
+        "object_repr": "Comment very good article by very good article",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 57,
+    "fields": {
+        "action_time": "2022-10-18T16:12:29.500",
+        "user": [
+            "myk@gmail.com"
+        ],
+        "content_type": [
+            "app",
+            "comment"
+        ],
+        "object_id": "7",
+        "object_repr": "Comment Renewable energy is best by Renewable energy is best",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 58,
+    "fields": {
+        "action_time": "2022-10-18T16:12:29.661",
+        "user": [
+            "myk@gmail.com"
+        ],
+        "content_type": [
+            "app",
+            "comment"
+        ],
+        "object_id": "8",
+        "object_repr": "Comment Nigeria should diversify by Nigeria should diversify",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 59,
+    "fields": {
+        "action_time": "2022-10-18T16:12:29.808",
+        "user": [
+            "myk@gmail.com"
+        ],
+        "content_type": [
+            "app",
+            "comment"
+        ],
+        "object_id": "9",
+        "object_repr": "Comment Second post by Second post",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 60,
+    "fields": {
+        "action_time": "2022-10-18T16:12:29.983",
+        "user": [
+            "myk@gmail.com"
+        ],
+        "content_type": [
+            "app",
+            "comment"
+        ],
+        "object_id": "10",
+        "object_repr": "Comment Third comment by Third comment",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 61,
+    "fields": {
+        "action_time": "2022-10-18T16:12:43.484",
+        "user": [
+            "myk@gmail.com"
+        ],
+        "content_type": [
+            "app",
+            "comment"
+        ],
+        "object_id": "11",
+        "object_repr": "Comment car is best by car is best",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 62,
+    "fields": {
+        "action_time": "2022-10-18T16:12:43.713",
+        "user": [
+            "myk@gmail.com"
+        ],
+        "content_type": [
+            "app",
+            "comment"
+        ],
+        "object_id": "12",
+        "object_repr": "Comment Very nice post by Very nice post",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 63,
+    "fields": {
+        "action_time": "2022-10-18T16:12:43.955",
+        "user": [
+            "myk@gmail.com"
+        ],
+        "content_type": [
+            "app",
+            "comment"
+        ],
+        "object_id": "13",
+        "object_repr": "Comment Nice post by Nice post",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 64,
+    "fields": {
+        "action_time": "2022-10-18T16:12:44.033",
+        "user": [
+            "myk@gmail.com"
+        ],
+        "content_type": [
+            "app",
+            "comment"
+        ],
+        "object_id": "14",
+        "object_repr": "Comment Well spent by Well spent",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 65,
+    "fields": {
+        "action_time": "2022-10-18T16:39:58.708",
+        "user": [
+            "myk@gmail.com"
+        ],
+        "content_type": [
+            "app",
+            "comment"
+        ],
+        "object_id": "15",
+        "object_repr": "Comment good writeup by good writeup",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 66,
+    "fields": {
+        "action_time": "2022-10-18T16:39:58.968",
+        "user": [
+            "myk@gmail.com"
+        ],
+        "content_type": [
+            "app",
+            "comment"
+        ],
+        "object_id": "16",
+        "object_repr": "Comment i know post post by i know post post",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 67,
+    "fields": {
+        "action_time": "2022-10-18T16:39:59.454",
+        "user": [
+            "myk@gmail.com"
+        ],
+        "content_type": [
+            "app",
+            "comment"
+        ],
+        "object_id": "17",
+        "object_repr": "Comment i know post post by i know post post",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 68,
+    "fields": {
+        "action_time": "2022-10-18T16:39:59.990",
+        "user": [
+            "myk@gmail.com"
+        ],
+        "content_type": [
+            "app",
+            "comment"
+        ],
+        "object_id": "18",
+        "object_repr": "Comment omo by omo",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 69,
+    "fields": {
+        "action_time": "2022-10-19T11:16:56.489",
+        "user": [
+            "myk@gmail.com"
+        ],
+        "content_type": [
+            "app",
+            "comment"
+        ],
+        "object_id": "19",
+        "object_repr": "Comment this is really problematic by this is really problematic",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 70,
+    "fields": {
+        "action_time": "2022-10-19T11:16:56.655",
+        "user": [
+            "myk@gmail.com"
+        ],
+        "content_type": [
+            "app",
+            "comment"
+        ],
+        "object_id": "20",
+        "object_repr": "Comment Good post by Good post",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 71,
+    "fields": {
+        "action_time": "2022-10-19T11:16:56.722",
+        "user": [
+            "myk@gmail.com"
+        ],
+        "content_type": [
+            "app",
+            "comment"
+        ],
+        "object_id": "21",
+        "object_repr": "Comment this another comment by this another comment",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 72,
+    "fields": {
+        "action_time": "2022-10-19T11:16:56.822",
+        "user": [
+            "myk@gmail.com"
+        ],
+        "content_type": [
+            "app",
+            "comment"
+        ],
+        "object_id": "22",
+        "object_repr": "Comment gbenga, by gbenga,",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 73,
+    "fields": {
+        "action_time": "2022-10-19T11:16:56.900",
+        "user": [
+            "myk@gmail.com"
+        ],
+        "content_type": [
+            "app",
+            "comment"
+        ],
+        "object_id": "23",
+        "object_repr": "Comment gbwnga by gbwnga",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 74,
+    "fields": {
+        "action_time": "2022-10-19T11:16:57.000",
+        "user": [
+            "myk@gmail.com"
+        ],
+        "content_type": [
+            "app",
+            "comment"
+        ],
+        "object_id": "24",
+        "object_repr": "Comment gbwnga by gbwnga",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 75,
+    "fields": {
+        "action_time": "2022-10-19T11:16:57.100",
+        "user": [
+            "myk@gmail.com"
+        ],
+        "content_type": [
+            "app",
+            "comment"
+        ],
+        "object_id": "25",
+        "object_repr": "Comment gooood by gooood",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 76,
+    "fields": {
+        "action_time": "2022-10-19T11:16:57.201",
+        "user": [
+            "myk@gmail.com"
+        ],
+        "content_type": [
+            "app",
+            "comment"
+        ],
+        "object_id": "26",
+        "object_repr": "Comment ew by ew",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 77,
+    "fields": {
+        "action_time": "2022-10-19T11:16:57.301",
+        "user": [
+            "myk@gmail.com"
+        ],
+        "content_type": [
+            "app",
+            "comment"
+        ],
+        "object_id": "27",
+        "object_repr": "Comment ihujhsddj by ihujhsddj",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 78,
+    "fields": {
+        "action_time": "2022-10-19T11:16:57.379",
+        "user": [
+            "myk@gmail.com"
+        ],
+        "content_type": [
+            "app",
+            "comment"
+        ],
+        "object_id": "28",
+        "object_repr": "Comment hh by hh",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 79,
+    "fields": {
+        "action_time": "2022-10-19T11:16:57.704",
+        "user": [
+            "myk@gmail.com"
+        ],
+        "content_type": [
+            "app",
+            "comment"
+        ],
+        "object_id": "29",
+        "object_repr": "Comment hh by hh",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 80,
+    "fields": {
+        "action_time": "2022-10-19T11:16:57.903",
+        "user": [
+            "myk@gmail.com"
+        ],
+        "content_type": [
+            "app",
+            "comment"
+        ],
+        "object_id": "30",
+        "object_repr": "Comment hhhjsbghj by hhhjsbghj",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 81,
+    "fields": {
+        "action_time": "2022-10-19T11:16:58.181",
+        "user": [
+            "myk@gmail.com"
+        ],
+        "content_type": [
+            "app",
+            "comment"
+        ],
+        "object_id": "31",
+        "object_repr": "Comment nmnb by nmnb",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 82,
+    "fields": {
+        "action_time": "2022-10-19T11:16:58.304",
+        "user": [
+            "myk@gmail.com"
+        ],
+        "content_type": [
+            "app",
+            "comment"
+        ],
+        "object_id": "32",
+        "object_repr": "Comment hhh by hhh",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 83,
+    "fields": {
+        "action_time": "2022-10-19T11:16:58.382",
+        "user": [
+            "myk@gmail.com"
+        ],
+        "content_type": [
+            "app",
+            "comment"
+        ],
+        "object_id": "33",
+        "object_repr": "Comment kjhjb by kjhjb",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 84,
+    "fields": {
+        "action_time": "2022-10-19T11:16:58.504",
+        "user": [
+            "myk@gmail.com"
+        ],
+        "content_type": [
+            "app",
+            "comment"
+        ],
+        "object_id": "34",
+        "object_repr": "Comment kjhjb by kjhjb",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 85,
+    "fields": {
+        "action_time": "2022-10-19T11:16:58.604",
+        "user": [
+            "myk@gmail.com"
+        ],
+        "content_type": [
+            "app",
+            "comment"
+        ],
+        "object_id": "35",
+        "object_repr": "Comment hijl by hijl",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 86,
+    "fields": {
+        "action_time": "2022-10-19T11:16:58.705",
+        "user": [
+            "myk@gmail.com"
+        ],
+        "content_type": [
+            "app",
+            "comment"
+        ],
+        "object_id": "36",
+        "object_repr": "Comment ayo senior dev by ayo senior dev",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 87,
+    "fields": {
+        "action_time": "2022-10-19T11:16:58.805",
+        "user": [
+            "myk@gmail.com"
+        ],
+        "content_type": [
+            "app",
+            "comment"
+        ],
+        "object_id": "37",
+        "object_repr": "Comment micheal scholar by micheal scholar",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 88,
+    "fields": {
+        "action_time": "2022-10-19T11:16:58.965",
+        "user": [
+            "myk@gmail.com"
+        ],
+        "content_type": [
+            "app",
+            "comment"
+        ],
+        "object_id": "38",
+        "object_repr": "Comment micheal scholar by micheal scholar",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 89,
+    "fields": {
+        "action_time": "2022-10-19T11:16:59.105",
+        "user": [
+            "myk@gmail.com"
+        ],
+        "content_type": [
+            "app",
+            "comment"
+        ],
+        "object_id": "39",
+        "object_repr": "Comment ok by ok",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 90,
+    "fields": {
+        "action_time": "2022-10-19T11:16:59.205",
+        "user": [
+            "myk@gmail.com"
+        ],
+        "content_type": [
+            "app",
+            "comment"
+        ],
+        "object_id": "40",
+        "object_repr": "Comment ljn by ljn",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 91,
+    "fields": {
+        "action_time": "2022-10-19T11:16:59.305",
+        "user": [
+            "myk@gmail.com"
+        ],
+        "content_type": [
+            "app",
+            "comment"
+        ],
+        "object_id": "41",
+        "object_repr": "Comment ljn by ljn",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 92,
+    "fields": {
+        "action_time": "2022-10-19T11:16:59.405",
+        "user": [
+            "myk@gmail.com"
+        ],
+        "content_type": [
+            "app",
+            "comment"
+        ],
+        "object_id": "42",
+        "object_repr": "Comment ljn by ljn",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 93,
+    "fields": {
+        "action_time": "2022-10-19T11:16:59.505",
+        "user": [
+            "myk@gmail.com"
+        ],
+        "content_type": [
+            "app",
+            "comment"
+        ],
+        "object_id": "43",
+        "object_repr": "Comment ljn by ljn",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 94,
+    "fields": {
+        "action_time": "2022-10-19T11:16:59.605",
+        "user": [
+            "myk@gmail.com"
+        ],
+        "content_type": [
+            "app",
+            "comment"
+        ],
+        "object_id": "44",
+        "object_repr": "Comment ljn by ljn",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 95,
+    "fields": {
+        "action_time": "2022-10-19T11:16:59.805",
+        "user": [
+            "myk@gmail.com"
+        ],
+        "content_type": [
+            "app",
+            "comment"
+        ],
+        "object_id": "45",
+        "object_repr": "Comment ljn by ljn",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 96,
+    "fields": {
+        "action_time": "2022-10-19T11:16:59.812",
+        "user": [
+            "myk@gmail.com"
+        ],
+        "content_type": [
+            "app",
+            "comment"
+        ],
+        "object_id": "19",
+        "object_repr": "Comment this is really problematic by this is really problematic",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 97,
+    "fields": {
+        "action_time": "2022-10-19T11:16:59.884",
+        "user": [
+            "myk@gmail.com"
+        ],
+        "content_type": [
+            "app",
+            "comment"
+        ],
+        "object_id": "46",
+        "object_repr": "Comment ljn by ljn",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 98,
+    "fields": {
+        "action_time": "2022-10-19T11:16:59.930",
+        "user": [
+            "myk@gmail.com"
+        ],
+        "content_type": [
+            "app",
+            "comment"
+        ],
+        "object_id": "20",
+        "object_repr": "Comment Good post by Good post",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 99,
+    "fields": {
+        "action_time": "2022-10-19T11:16:59.995",
+        "user": [
+            "myk@gmail.com"
+        ],
+        "content_type": [
+            "app",
+            "comment"
+        ],
+        "object_id": "47",
+        "object_repr": "Comment ljn by ljn",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 100,
+    "fields": {
+        "action_time": "2022-10-19T11:17:00.086",
+        "user": [
+            "myk@gmail.com"
+        ],
+        "content_type": [
+            "app",
+            "comment"
+        ],
+        "object_id": "21",
+        "object_repr": "Comment this another comment by this another comment",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 101,
+    "fields": {
+        "action_time": "2022-10-19T11:17:00.185",
+        "user": [
+            "myk@gmail.com"
+        ],
+        "content_type": [
+            "app",
+            "comment"
+        ],
+        "object_id": "48",
+        "object_repr": "Comment ljn by ljn",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 102,
+    "fields": {
+        "action_time": "2022-10-19T11:17:00.195",
+        "user": [
+            "myk@gmail.com"
+        ],
+        "content_type": [
+            "app",
+            "comment"
+        ],
+        "object_id": "22",
+        "object_repr": "Comment gbenga, by gbenga,",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 103,
+    "fields": {
+        "action_time": "2022-10-19T11:17:00.296",
+        "user": [
+            "myk@gmail.com"
+        ],
+        "content_type": [
+            "app",
+            "comment"
+        ],
+        "object_id": "49",
+        "object_repr": "Comment ljn by ljn",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 104,
+    "fields": {
+        "action_time": "2022-10-19T11:17:00.306",
+        "user": [
+            "myk@gmail.com"
+        ],
+        "content_type": [
+            "app",
+            "comment"
+        ],
+        "object_id": "23",
+        "object_repr": "Comment gbwnga by gbwnga",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 105,
+    "fields": {
+        "action_time": "2022-10-19T11:17:00.385",
+        "user": [
+            "myk@gmail.com"
+        ],
+        "content_type": [
+            "app",
+            "comment"
+        ],
+        "object_id": "50",
+        "object_repr": "Comment ljn by ljn",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 106,
+    "fields": {
+        "action_time": "2022-10-19T11:17:00.430",
+        "user": [
+            "myk@gmail.com"
+        ],
+        "content_type": [
+            "app",
+            "comment"
+        ],
+        "object_id": "24",
+        "object_repr": "Comment gbwnga by gbwnga",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 107,
+    "fields": {
+        "action_time": "2022-10-19T11:17:00.563",
+        "user": [
+            "myk@gmail.com"
+        ],
+        "content_type": [
+            "app",
+            "comment"
+        ],
+        "object_id": "51",
+        "object_repr": "Comment ljn by ljn",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 108,
+    "fields": {
+        "action_time": "2022-10-19T11:17:00.618",
+        "user": [
+            "myk@gmail.com"
+        ],
+        "content_type": [
+            "app",
+            "comment"
+        ],
+        "object_id": "25",
+        "object_repr": "Comment gooood by gooood",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 109,
+    "fields": {
+        "action_time": "2022-10-19T11:17:00.719",
+        "user": [
+            "myk@gmail.com"
+        ],
+        "content_type": [
+            "app",
+            "comment"
+        ],
+        "object_id": "52",
+        "object_repr": "Comment ljn by ljn",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 110,
+    "fields": {
+        "action_time": "2022-10-19T11:17:00.786",
+        "user": [
+            "myk@gmail.com"
+        ],
+        "content_type": [
+            "app",
+            "comment"
+        ],
+        "object_id": "26",
+        "object_repr": "Comment ew by ew",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 111,
+    "fields": {
+        "action_time": "2022-10-19T11:17:00.997",
+        "user": [
+            "myk@gmail.com"
+        ],
+        "content_type": [
+            "app",
+            "comment"
+        ],
+        "object_id": "53",
+        "object_repr": "Comment ljn by ljn",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 112,
+    "fields": {
+        "action_time": "2022-10-19T11:17:01.063",
+        "user": [
+            "myk@gmail.com"
+        ],
+        "content_type": [
+            "app",
+            "comment"
+        ],
+        "object_id": "27",
+        "object_repr": "Comment ihujhsddj by ihujhsddj",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 113,
+    "fields": {
+        "action_time": "2022-10-19T11:17:01.198",
+        "user": [
+            "myk@gmail.com"
+        ],
+        "content_type": [
+            "app",
+            "comment"
+        ],
+        "object_id": "54",
+        "object_repr": "Comment ljn by ljn",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 114,
+    "fields": {
+        "action_time": "2022-10-19T11:17:01.262",
+        "user": [
+            "myk@gmail.com"
+        ],
+        "content_type": [
+            "app",
+            "comment"
+        ],
+        "object_id": "28",
+        "object_repr": "Comment hh by hh",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 115,
+    "fields": {
+        "action_time": "2022-10-19T11:17:01.388",
+        "user": [
+            "myk@gmail.com"
+        ],
+        "content_type": [
+            "app",
+            "comment"
+        ],
+        "object_id": "55",
+        "object_repr": "Comment ljndss by ljndss",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 116,
+    "fields": {
+        "action_time": "2022-10-19T11:17:01.462",
+        "user": [
+            "myk@gmail.com"
+        ],
+        "content_type": [
+            "app",
+            "comment"
+        ],
+        "object_id": "29",
+        "object_repr": "Comment hh by hh",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 117,
+    "fields": {
+        "action_time": "2022-10-19T11:17:01.577",
+        "user": [
+            "myk@gmail.com"
+        ],
+        "content_type": [
+            "app",
+            "comment"
+        ],
+        "object_id": "56",
+        "object_repr": "Comment ljndss by ljndss",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 118,
+    "fields": {
+        "action_time": "2022-10-19T11:17:01.632",
+        "user": [
+            "myk@gmail.com"
+        ],
+        "content_type": [
+            "app",
+            "comment"
+        ],
+        "object_id": "30",
+        "object_repr": "Comment hhhjsbghj by hhhjsbghj",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 119,
+    "fields": {
+        "action_time": "2022-10-19T11:17:01.733",
+        "user": [
+            "myk@gmail.com"
+        ],
+        "content_type": [
+            "app",
+            "comment"
+        ],
+        "object_id": "57",
+        "object_repr": "Comment ere by ere",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 120,
+    "fields": {
+        "action_time": "2022-10-19T11:17:01.789",
+        "user": [
+            "myk@gmail.com"
+        ],
+        "content_type": [
+            "app",
+            "comment"
+        ],
+        "object_id": "31",
+        "object_repr": "Comment nmnb by nmnb",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 121,
+    "fields": {
+        "action_time": "2022-10-19T11:17:01.889",
+        "user": [
+            "myk@gmail.com"
+        ],
+        "content_type": [
+            "app",
+            "comment"
+        ],
+        "object_id": "58",
+        "object_repr": "Comment gb by gb",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 122,
+    "fields": {
+        "action_time": "2022-10-19T11:17:02.015",
+        "user": [
+            "myk@gmail.com"
+        ],
+        "content_type": [
+            "app",
+            "comment"
+        ],
+        "object_id": "32",
+        "object_repr": "Comment hhh by hhh",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 123,
+    "fields": {
+        "action_time": "2022-10-19T11:17:02.167",
+        "user": [
+            "myk@gmail.com"
+        ],
+        "content_type": [
+            "app",
+            "comment"
+        ],
+        "object_id": "59",
+        "object_repr": "Comment gb by gb",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 124,
+    "fields": {
+        "action_time": "2022-10-19T11:17:02.223",
+        "user": [
+            "myk@gmail.com"
+        ],
+        "content_type": [
+            "app",
+            "comment"
+        ],
+        "object_id": "33",
+        "object_repr": "Comment kjhjb by kjhjb",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 125,
+    "fields": {
+        "action_time": "2022-10-19T11:17:02.302",
+        "user": [
+            "myk@gmail.com"
+        ],
+        "content_type": [
+            "app",
+            "comment"
+        ],
+        "object_id": "19",
+        "object_repr": "Comment this is really problematic by this is really problematic",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 126,
+    "fields": {
+        "action_time": "2022-10-19T11:17:02.322",
+        "user": [
+            "myk@gmail.com"
+        ],
+        "content_type": [
+            "app",
+            "comment"
+        ],
+        "object_id": "60",
+        "object_repr": "Comment qqqqq by qqqqq",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 127,
+    "fields": {
+        "action_time": "2022-10-19T11:17:02.379",
+        "user": [
+            "myk@gmail.com"
+        ],
+        "content_type": [
+            "app",
+            "comment"
+        ],
+        "object_id": "34",
+        "object_repr": "Comment kjhjb by kjhjb",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 128,
+    "fields": {
+        "action_time": "2022-10-19T11:17:02.446",
+        "user": [
+            "myk@gmail.com"
+        ],
+        "content_type": [
+            "app",
+            "comment"
+        ],
+        "object_id": "20",
+        "object_repr": "Comment Good post by Good post",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 129,
+    "fields": {
+        "action_time": "2022-10-19T11:17:02.501",
+        "user": [
+            "myk@gmail.com"
+        ],
+        "content_type": [
+            "app",
+            "comment"
+        ],
+        "object_id": "61",
+        "object_repr": "Comment qqqqq23 by qqqqq23",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 130,
+    "fields": {
+        "action_time": "2022-10-19T11:17:02.503",
+        "user": [
+            "myk@gmail.com"
+        ],
+        "content_type": [
+            "app",
+            "comment"
+        ],
+        "object_id": "35",
+        "object_repr": "Comment hijl by hijl",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 131,
+    "fields": {
+        "action_time": "2022-10-19T11:17:02.602",
+        "user": [
+            "myk@gmail.com"
+        ],
+        "content_type": [
+            "app",
+            "comment"
+        ],
+        "object_id": "21",
+        "object_repr": "Comment this another comment by this another comment",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 132,
+    "fields": {
+        "action_time": "2022-10-19T11:17:02.645",
+        "user": [
+            "myk@gmail.com"
+        ],
+        "content_type": [
+            "app",
+            "comment"
+        ],
+        "object_id": "36",
+        "object_repr": "Comment ayo senior dev by ayo senior dev",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 133,
+    "fields": {
+        "action_time": "2022-10-19T11:17:02.646",
+        "user": [
+            "myk@gmail.com"
+        ],
+        "content_type": [
+            "app",
+            "comment"
+        ],
+        "object_id": "62",
+        "object_repr": "Comment qqqqq23 by qqqqq23",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 134,
+    "fields": {
+        "action_time": "2022-10-19T11:17:02.768",
+        "user": [
+            "myk@gmail.com"
+        ],
+        "content_type": [
+            "app",
+            "comment"
+        ],
+        "object_id": "22",
+        "object_repr": "Comment gbenga, by gbenga,",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 135,
+    "fields": {
+        "action_time": "2022-10-19T11:17:02.813",
+        "user": [
+            "myk@gmail.com"
+        ],
+        "content_type": [
+            "app",
+            "comment"
+        ],
+        "object_id": "37",
+        "object_repr": "Comment micheal scholar by micheal scholar",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 136,
+    "fields": {
+        "action_time": "2022-10-19T11:17:02.815",
+        "user": [
+            "myk@gmail.com"
+        ],
+        "content_type": [
+            "app",
+            "comment"
+        ],
+        "object_id": "63",
+        "object_repr": "Comment sedfr by sedfr",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 137,
+    "fields": {
+        "action_time": "2022-10-19T11:17:02.902",
+        "user": [
+            "myk@gmail.com"
+        ],
+        "content_type": [
+            "app",
+            "comment"
+        ],
+        "object_id": "23",
+        "object_repr": "Comment gbwnga by gbwnga",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 138,
+    "fields": {
+        "action_time": "2022-10-19T11:17:02.960",
+        "user": [
+            "myk@gmail.com"
+        ],
+        "content_type": [
+            "app",
+            "comment"
+        ],
+        "object_id": "38",
+        "object_repr": "Comment micheal scholar by micheal scholar",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 139,
+    "fields": {
+        "action_time": "2022-10-19T11:17:02.961",
+        "user": [
+            "myk@gmail.com"
+        ],
+        "content_type": [
+            "app",
+            "comment"
+        ],
+        "object_id": "64",
+        "object_repr": "Comment sedfr by sedfr",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 140,
+    "fields": {
+        "action_time": "2022-10-19T11:17:03.070",
+        "user": [
+            "myk@gmail.com"
+        ],
+        "content_type": [
+            "app",
+            "comment"
+        ],
+        "object_id": "24",
+        "object_repr": "Comment gbwnga by gbwnga",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 141,
+    "fields": {
+        "action_time": "2022-10-19T11:17:03.115",
+        "user": [
+            "myk@gmail.com"
+        ],
+        "content_type": [
+            "app",
+            "comment"
+        ],
+        "object_id": "39",
+        "object_repr": "Comment ok by ok",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 142,
+    "fields": {
+        "action_time": "2022-10-19T11:17:03.116",
+        "user": [
+            "myk@gmail.com"
+        ],
+        "content_type": [
+            "app",
+            "comment"
+        ],
+        "object_id": "65",
+        "object_repr": "Comment sedfr by sedfr",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 143,
+    "fields": {
+        "action_time": "2022-10-19T11:17:03.203",
+        "user": [
+            "myk@gmail.com"
+        ],
+        "content_type": [
+            "app",
+            "comment"
+        ],
+        "object_id": "25",
+        "object_repr": "Comment gooood by gooood",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 144,
+    "fields": {
+        "action_time": "2022-10-19T11:17:03.214",
+        "user": [
+            "myk@gmail.com"
+        ],
+        "content_type": [
+            "app",
+            "comment"
+        ],
+        "object_id": "66",
+        "object_repr": "Comment qer by qer",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 145,
+    "fields": {
+        "action_time": "2022-10-19T11:17:03.215",
+        "user": [
+            "myk@gmail.com"
+        ],
+        "content_type": [
+            "app",
+            "comment"
+        ],
+        "object_id": "40",
+        "object_repr": "Comment ljn by ljn",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 146,
+    "fields": {
+        "action_time": "2022-10-19T11:17:03.314",
+        "user": [
+            "myk@gmail.com"
+        ],
+        "content_type": [
+            "app",
+            "comment"
+        ],
+        "object_id": "26",
+        "object_repr": "Comment ew by ew",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 147,
+    "fields": {
+        "action_time": "2022-10-19T11:17:03.324",
+        "user": [
+            "myk@gmail.com"
+        ],
+        "content_type": [
+            "app",
+            "comment"
+        ],
+        "object_id": "41",
+        "object_repr": "Comment ljn by ljn",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 148,
+    "fields": {
+        "action_time": "2022-10-19T11:17:03.437",
+        "user": [
+            "myk@gmail.com"
+        ],
+        "content_type": [
+            "app",
+            "comment"
+        ],
+        "object_id": "27",
+        "object_repr": "Comment ihujhsddj by ihujhsddj",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 149,
+    "fields": {
+        "action_time": "2022-10-19T11:17:03.492",
+        "user": [
+            "myk@gmail.com"
+        ],
+        "content_type": [
+            "app",
+            "comment"
+        ],
+        "object_id": "42",
+        "object_repr": "Comment ljn by ljn",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 150,
+    "fields": {
+        "action_time": "2022-10-19T11:17:03.637",
+        "user": [
+            "myk@gmail.com"
+        ],
+        "content_type": [
+            "app",
+            "comment"
+        ],
+        "object_id": "28",
+        "object_repr": "Comment hh by hh",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 151,
+    "fields": {
+        "action_time": "2022-10-19T11:17:03.638",
+        "user": [
+            "myk@gmail.com"
+        ],
+        "content_type": [
+            "app",
+            "comment"
+        ],
+        "object_id": "43",
+        "object_repr": "Comment ljn by ljn",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 152,
+    "fields": {
+        "action_time": "2022-10-19T11:17:03.726",
+        "user": [
+            "myk@gmail.com"
+        ],
+        "content_type": [
+            "app",
+            "comment"
+        ],
+        "object_id": "29",
+        "object_repr": "Comment hh by hh",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 153,
+    "fields": {
+        "action_time": "2022-10-19T11:17:03.793",
+        "user": [
+            "myk@gmail.com"
+        ],
+        "content_type": [
+            "app",
+            "comment"
+        ],
+        "object_id": "44",
+        "object_repr": "Comment ljn by ljn",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 154,
+    "fields": {
+        "action_time": "2022-10-19T11:17:03.915",
+        "user": [
+            "myk@gmail.com"
+        ],
+        "content_type": [
+            "app",
+            "comment"
+        ],
+        "object_id": "30",
+        "object_repr": "Comment hhhjsbghj by hhhjsbghj",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 155,
+    "fields": {
+        "action_time": "2022-10-19T11:17:03.982",
+        "user": [
+            "myk@gmail.com"
+        ],
+        "content_type": [
+            "app",
+            "comment"
+        ],
+        "object_id": "45",
+        "object_repr": "Comment ljn by ljn",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 156,
+    "fields": {
+        "action_time": "2022-10-19T11:17:04.093",
+        "user": [
+            "myk@gmail.com"
+        ],
+        "content_type": [
+            "app",
+            "comment"
+        ],
+        "object_id": "31",
+        "object_repr": "Comment nmnb by nmnb",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 157,
+    "fields": {
+        "action_time": "2022-10-19T11:17:04.169",
+        "user": [
+            "myk@gmail.com"
+        ],
+        "content_type": [
+            "app",
+            "comment"
+        ],
+        "object_id": "46",
+        "object_repr": "Comment ljn by ljn",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 158,
+    "fields": {
+        "action_time": "2022-10-19T11:17:04.305",
+        "user": [
+            "myk@gmail.com"
+        ],
+        "content_type": [
+            "app",
+            "comment"
+        ],
+        "object_id": "32",
+        "object_repr": "Comment hhh by hhh",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 159,
+    "fields": {
+        "action_time": "2022-10-19T11:17:04.358",
+        "user": [
+            "myk@gmail.com"
+        ],
+        "content_type": [
+            "app",
+            "comment"
+        ],
+        "object_id": "47",
+        "object_repr": "Comment ljn by ljn",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 160,
+    "fields": {
+        "action_time": "2022-10-19T11:17:04.483",
+        "user": [
+            "myk@gmail.com"
+        ],
+        "content_type": [
+            "app",
+            "comment"
+        ],
+        "object_id": "33",
+        "object_repr": "Comment kjhjb by kjhjb",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 161,
+    "fields": {
+        "action_time": "2022-10-19T11:17:04.535",
+        "user": [
+            "myk@gmail.com"
+        ],
+        "content_type": [
+            "app",
+            "comment"
+        ],
+        "object_id": "48",
+        "object_repr": "Comment ljn by ljn",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 162,
+    "fields": {
+        "action_time": "2022-10-19T11:17:04.650",
+        "user": [
+            "myk@gmail.com"
+        ],
+        "content_type": [
+            "app",
+            "comment"
+        ],
+        "object_id": "34",
+        "object_repr": "Comment kjhjb by kjhjb",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 163,
+    "fields": {
+        "action_time": "2022-10-19T11:17:04.686",
+        "user": [
+            "myk@gmail.com"
+        ],
+        "content_type": [
+            "app",
+            "comment"
+        ],
+        "object_id": "49",
+        "object_repr": "Comment ljn by ljn",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 164,
+    "fields": {
+        "action_time": "2022-10-19T11:17:04.807",
+        "user": [
+            "myk@gmail.com"
+        ],
+        "content_type": [
+            "app",
+            "comment"
+        ],
+        "object_id": "35",
+        "object_repr": "Comment hijl by hijl",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 165,
+    "fields": {
+        "action_time": "2022-10-19T11:17:04.879",
+        "user": [
+            "myk@gmail.com"
+        ],
+        "content_type": [
+            "app",
+            "comment"
+        ],
+        "object_id": "50",
+        "object_repr": "Comment ljn by ljn",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 166,
+    "fields": {
+        "action_time": "2022-10-19T11:17:05.018",
+        "user": [
+            "myk@gmail.com"
+        ],
+        "content_type": [
+            "app",
+            "comment"
+        ],
+        "object_id": "36",
+        "object_repr": "Comment ayo senior dev by ayo senior dev",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 167,
+    "fields": {
+        "action_time": "2022-10-19T11:17:05.090",
+        "user": [
+            "myk@gmail.com"
+        ],
+        "content_type": [
+            "app",
+            "comment"
+        ],
+        "object_id": "51",
+        "object_repr": "Comment ljn by ljn",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 168,
+    "fields": {
+        "action_time": "2022-10-19T11:17:05.218",
+        "user": [
+            "myk@gmail.com"
+        ],
+        "content_type": [
+            "app",
+            "comment"
+        ],
+        "object_id": "37",
+        "object_repr": "Comment micheal scholar by micheal scholar",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 169,
+    "fields": {
+        "action_time": "2022-10-19T11:17:05.285",
+        "user": [
+            "myk@gmail.com"
+        ],
+        "content_type": [
+            "app",
+            "comment"
+        ],
+        "object_id": "52",
+        "object_repr": "Comment ljn by ljn",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 170,
+    "fields": {
+        "action_time": "2022-10-19T11:17:05.463",
+        "user": [
+            "myk@gmail.com"
+        ],
+        "content_type": [
+            "app",
+            "comment"
+        ],
+        "object_id": "38",
+        "object_repr": "Comment micheal scholar by micheal scholar",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 171,
+    "fields": {
+        "action_time": "2022-10-19T11:17:05.485",
+        "user": [
+            "myk@gmail.com"
+        ],
+        "content_type": [
+            "app",
+            "comment"
+        ],
+        "object_id": "53",
+        "object_repr": "Comment ljn by ljn",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 172,
+    "fields": {
+        "action_time": "2022-10-19T11:17:05.729",
+        "user": [
+            "myk@gmail.com"
+        ],
+        "content_type": [
+            "app",
+            "comment"
+        ],
+        "object_id": "39",
+        "object_repr": "Comment ok by ok",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 173,
+    "fields": {
+        "action_time": "2022-10-19T11:17:05.751",
+        "user": [
+            "myk@gmail.com"
+        ],
+        "content_type": [
+            "app",
+            "comment"
+        ],
+        "object_id": "54",
+        "object_repr": "Comment ljn by ljn",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 174,
+    "fields": {
+        "action_time": "2022-10-19T11:17:05.874",
+        "user": [
+            "myk@gmail.com"
+        ],
+        "content_type": [
+            "app",
+            "comment"
+        ],
+        "object_id": "40",
+        "object_repr": "Comment ljn by ljn",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 175,
+    "fields": {
+        "action_time": "2022-10-19T11:17:05.952",
+        "user": [
+            "myk@gmail.com"
+        ],
+        "content_type": [
+            "app",
+            "comment"
+        ],
+        "object_id": "55",
+        "object_repr": "Comment ljndss by ljndss",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 176,
+    "fields": {
+        "action_time": "2022-10-19T11:17:06.086",
+        "user": [
+            "myk@gmail.com"
+        ],
+        "content_type": [
+            "app",
+            "comment"
+        ],
+        "object_id": "41",
+        "object_repr": "Comment ljn by ljn",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 177,
+    "fields": {
+        "action_time": "2022-10-19T11:17:06.130",
+        "user": [
+            "myk@gmail.com"
+        ],
+        "content_type": [
+            "app",
+            "comment"
+        ],
+        "object_id": "56",
+        "object_repr": "Comment ljndss by ljndss",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 178,
+    "fields": {
+        "action_time": "2022-10-19T11:17:06.231",
+        "user": [
+            "myk@gmail.com"
+        ],
+        "content_type": [
+            "app",
+            "comment"
+        ],
+        "object_id": "42",
+        "object_repr": "Comment ljn by ljn",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 179,
+    "fields": {
+        "action_time": "2022-10-19T11:17:06.276",
+        "user": [
+            "myk@gmail.com"
+        ],
+        "content_type": [
+            "app",
+            "comment"
+        ],
+        "object_id": "57",
+        "object_repr": "Comment ere by ere",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 180,
+    "fields": {
+        "action_time": "2022-10-19T11:17:06.399",
+        "user": [
+            "myk@gmail.com"
+        ],
+        "content_type": [
+            "app",
+            "comment"
+        ],
+        "object_id": "43",
+        "object_repr": "Comment ljn by ljn",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 181,
+    "fields": {
+        "action_time": "2022-10-19T11:17:06.444",
+        "user": [
+            "myk@gmail.com"
+        ],
+        "content_type": [
+            "app",
+            "comment"
+        ],
+        "object_id": "58",
+        "object_repr": "Comment gb by gb",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 182,
+    "fields": {
+        "action_time": "2022-10-19T11:17:06.567",
+        "user": [
+            "myk@gmail.com"
+        ],
+        "content_type": [
+            "app",
+            "comment"
+        ],
+        "object_id": "44",
+        "object_repr": "Comment ljn by ljn",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 183,
+    "fields": {
+        "action_time": "2022-10-19T11:17:06.623",
+        "user": [
+            "myk@gmail.com"
+        ],
+        "content_type": [
+            "app",
+            "comment"
+        ],
+        "object_id": "59",
+        "object_repr": "Comment gb by gb",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 184,
+    "fields": {
+        "action_time": "2022-10-19T11:17:06.713",
+        "user": [
+            "myk@gmail.com"
+        ],
+        "content_type": [
+            "app",
+            "comment"
+        ],
+        "object_id": "45",
+        "object_repr": "Comment ljn by ljn",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 185,
+    "fields": {
+        "action_time": "2022-10-19T11:17:06.768",
+        "user": [
+            "myk@gmail.com"
+        ],
+        "content_type": [
+            "app",
+            "comment"
+        ],
+        "object_id": "60",
+        "object_repr": "Comment qqqqq by qqqqq",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 186,
+    "fields": {
+        "action_time": "2022-10-19T11:17:06.868",
+        "user": [
+            "myk@gmail.com"
+        ],
+        "content_type": [
+            "app",
+            "comment"
+        ],
+        "object_id": "46",
+        "object_repr": "Comment ljn by ljn",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 187,
+    "fields": {
+        "action_time": "2022-10-19T11:17:06.913",
+        "user": [
+            "myk@gmail.com"
+        ],
+        "content_type": [
+            "app",
+            "comment"
+        ],
+        "object_id": "61",
+        "object_repr": "Comment qqqqq23 by qqqqq23",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 188,
+    "fields": {
+        "action_time": "2022-10-19T11:17:06.991",
+        "user": [
+            "myk@gmail.com"
+        ],
+        "content_type": [
+            "app",
+            "comment"
+        ],
+        "object_id": "47",
+        "object_repr": "Comment ljn by ljn",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 189,
+    "fields": {
+        "action_time": "2022-10-19T11:17:07.035",
+        "user": [
+            "myk@gmail.com"
+        ],
+        "content_type": [
+            "app",
+            "comment"
+        ],
+        "object_id": "62",
+        "object_repr": "Comment qqqqq23 by qqqqq23",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 190,
+    "fields": {
+        "action_time": "2022-10-19T11:17:07.124",
+        "user": [
+            "myk@gmail.com"
+        ],
+        "content_type": [
+            "app",
+            "comment"
+        ],
+        "object_id": "48",
+        "object_repr": "Comment ljn by ljn",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 191,
+    "fields": {
+        "action_time": "2022-10-19T11:17:07.142",
+        "user": [
+            "myk@gmail.com"
+        ],
+        "content_type": [
+            "app",
+            "comment"
+        ],
+        "object_id": "63",
+        "object_repr": "Comment sedfr by sedfr",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 192,
+    "fields": {
+        "action_time": "2022-10-19T11:17:07.269",
+        "user": [
+            "myk@gmail.com"
+        ],
+        "content_type": [
+            "app",
+            "comment"
+        ],
+        "object_id": "49",
+        "object_repr": "Comment ljn by ljn",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 193,
+    "fields": {
+        "action_time": "2022-10-19T11:17:07.314",
+        "user": [
+            "myk@gmail.com"
+        ],
+        "content_type": [
+            "app",
+            "comment"
+        ],
+        "object_id": "64",
+        "object_repr": "Comment sedfr by sedfr",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 194,
+    "fields": {
+        "action_time": "2022-10-19T11:17:07.405",
+        "user": [
+            "myk@gmail.com"
+        ],
+        "content_type": [
+            "app",
+            "comment"
+        ],
+        "object_id": "50",
+        "object_repr": "Comment ljn by ljn",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 195,
+    "fields": {
+        "action_time": "2022-10-19T11:17:07.460",
+        "user": [
+            "myk@gmail.com"
+        ],
+        "content_type": [
+            "app",
+            "comment"
+        ],
+        "object_id": "65",
+        "object_repr": "Comment sedfr by sedfr",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 196,
+    "fields": {
+        "action_time": "2022-10-19T11:17:07.505",
+        "user": [
+            "myk@gmail.com"
+        ],
+        "content_type": [
+            "app",
+            "comment"
+        ],
+        "object_id": "51",
+        "object_repr": "Comment ljn by ljn",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 197,
+    "fields": {
+        "action_time": "2022-10-19T11:17:07.605",
+        "user": [
+            "myk@gmail.com"
+        ],
+        "content_type": [
+            "app",
+            "comment"
+        ],
+        "object_id": "66",
+        "object_repr": "Comment qer by qer",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 198,
+    "fields": {
+        "action_time": "2022-10-19T11:17:07.661",
+        "user": [
+            "myk@gmail.com"
+        ],
+        "content_type": [
+            "app",
+            "comment"
+        ],
+        "object_id": "52",
+        "object_repr": "Comment ljn by ljn",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 199,
+    "fields": {
+        "action_time": "2022-10-19T11:17:07.996",
+        "user": [
+            "myk@gmail.com"
+        ],
+        "content_type": [
+            "app",
+            "comment"
+        ],
+        "object_id": "53",
+        "object_repr": "Comment ljn by ljn",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 200,
+    "fields": {
+        "action_time": "2022-10-19T11:17:08.117",
+        "user": [
+            "myk@gmail.com"
+        ],
+        "content_type": [
+            "app",
+            "comment"
+        ],
+        "object_id": "54",
+        "object_repr": "Comment ljn by ljn",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 201,
+    "fields": {
+        "action_time": "2022-10-19T11:17:08.206",
+        "user": [
+            "myk@gmail.com"
+        ],
+        "content_type": [
+            "app",
+            "comment"
+        ],
+        "object_id": "55",
+        "object_repr": "Comment ljndss by ljndss",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 202,
+    "fields": {
+        "action_time": "2022-10-19T11:17:08.295",
+        "user": [
+            "myk@gmail.com"
+        ],
+        "content_type": [
+            "app",
+            "comment"
+        ],
+        "object_id": "56",
+        "object_repr": "Comment ljndss by ljndss",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 203,
+    "fields": {
+        "action_time": "2022-10-19T11:17:08.373",
+        "user": [
+            "myk@gmail.com"
+        ],
+        "content_type": [
+            "app",
+            "comment"
+        ],
+        "object_id": "57",
+        "object_repr": "Comment ere by ere",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 204,
+    "fields": {
+        "action_time": "2022-10-19T11:17:08.452",
+        "user": [
+            "myk@gmail.com"
+        ],
+        "content_type": [
+            "app",
+            "comment"
+        ],
+        "object_id": "58",
+        "object_repr": "Comment gb by gb",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 205,
+    "fields": {
+        "action_time": "2022-10-19T11:17:08.596",
+        "user": [
+            "myk@gmail.com"
+        ],
+        "content_type": [
+            "app",
+            "comment"
+        ],
+        "object_id": "59",
+        "object_repr": "Comment gb by gb",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 206,
+    "fields": {
+        "action_time": "2022-10-19T11:17:08.774",
+        "user": [
+            "myk@gmail.com"
+        ],
+        "content_type": [
+            "app",
+            "comment"
+        ],
+        "object_id": "60",
+        "object_repr": "Comment qqqqq by qqqqq",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 207,
+    "fields": {
+        "action_time": "2022-10-19T11:17:08.886",
+        "user": [
+            "myk@gmail.com"
+        ],
+        "content_type": [
+            "app",
+            "comment"
+        ],
+        "object_id": "61",
+        "object_repr": "Comment qqqqq23 by qqqqq23",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 208,
+    "fields": {
+        "action_time": "2022-10-19T11:17:08.975",
+        "user": [
+            "myk@gmail.com"
+        ],
+        "content_type": [
+            "app",
+            "comment"
+        ],
+        "object_id": "62",
+        "object_repr": "Comment qqqqq23 by qqqqq23",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 209,
+    "fields": {
+        "action_time": "2022-10-19T11:17:09.041",
+        "user": [
+            "myk@gmail.com"
+        ],
+        "content_type": [
+            "app",
+            "comment"
+        ],
+        "object_id": "63",
+        "object_repr": "Comment sedfr by sedfr",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 210,
+    "fields": {
+        "action_time": "2022-10-19T11:17:09.142",
+        "user": [
+            "myk@gmail.com"
+        ],
+        "content_type": [
+            "app",
+            "comment"
+        ],
+        "object_id": "64",
+        "object_repr": "Comment sedfr by sedfr",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 211,
+    "fields": {
+        "action_time": "2022-10-19T11:17:09.242",
+        "user": [
+            "myk@gmail.com"
+        ],
+        "content_type": [
+            "app",
+            "comment"
+        ],
+        "object_id": "65",
+        "object_repr": "Comment sedfr by sedfr",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 212,
+    "fields": {
+        "action_time": "2022-10-19T11:17:09.364",
+        "user": [
+            "myk@gmail.com"
+        ],
+        "content_type": [
+            "app",
+            "comment"
+        ],
+        "object_id": "66",
+        "object_repr": "Comment qer by qer",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 213,
+    "fields": {
+        "action_time": "2022-10-19T11:32:42.572",
+        "user": [
+            "myk@gmail.com"
+        ],
+        "content_type": [
+            "app",
+            "comment"
+        ],
+        "object_id": "67",
+        "object_repr": "Comment wer by wer",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 214,
+    "fields": {
+        "action_time": "2022-10-19T11:32:42.696",
+        "user": [
+            "myk@gmail.com"
+        ],
+        "content_type": [
+            "app",
+            "comment"
+        ],
+        "object_id": "68",
+        "object_repr": "Comment hijh by hijh",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 215,
+    "fields": {
+        "action_time": "2022-10-19T11:32:42.765",
+        "user": [
+            "myk@gmail.com"
+        ],
+        "content_type": [
+            "app",
+            "comment"
+        ],
+        "object_id": "69",
+        "object_repr": "Comment hijh77 by hijh77",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 216,
+    "fields": {
+        "action_time": "2022-10-19T11:32:42.843",
+        "user": [
+            "myk@gmail.com"
+        ],
+        "content_type": [
+            "app",
+            "comment"
+        ],
+        "object_id": "70",
+        "object_repr": "Comment hijh77 by hijh77",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 217,
+    "fields": {
+        "action_time": "2022-10-19T11:32:42.943",
+        "user": [
+            "myk@gmail.com"
+        ],
+        "content_type": [
+            "app",
+            "comment"
+        ],
+        "object_id": "71",
+        "object_repr": "Comment hijh77s by hijh77s",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 218,
+    "fields": {
+        "action_time": "2022-10-19T11:32:43.010",
+        "user": [
+            "myk@gmail.com"
+        ],
+        "content_type": [
+            "app",
+            "comment"
+        ],
+        "object_id": "72",
+        "object_repr": "Comment hijh77sese by hijh77sese",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 219,
+    "fields": {
+        "action_time": "2022-10-19T11:32:43.110",
+        "user": [
+            "myk@gmail.com"
+        ],
+        "content_type": [
+            "app",
+            "comment"
+        ],
+        "object_id": "73",
+        "object_repr": "Comment hijh77sese23 by hijh77sese23",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 220,
+    "fields": {
+        "action_time": "2022-10-19T11:32:43.210",
+        "user": [
+            "myk@gmail.com"
+        ],
+        "content_type": [
+            "app",
+            "comment"
+        ],
+        "object_id": "74",
+        "object_repr": "Comment hijh77sese23 by hijh77sese23",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 221,
+    "fields": {
+        "action_time": "2022-10-19T11:32:43.310",
+        "user": [
+            "myk@gmail.com"
+        ],
+        "content_type": [
+            "app",
+            "comment"
+        ],
+        "object_id": "75",
+        "object_repr": "Comment hijh77sese23 by hijh77sese23",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 222,
+    "fields": {
+        "action_time": "2022-10-19T11:32:43.410",
+        "user": [
+            "myk@gmail.com"
+        ],
+        "content_type": [
+            "app",
+            "comment"
+        ],
+        "object_id": "76",
+        "object_repr": "Comment hijh77sese23 by hijh77sese23",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 223,
+    "fields": {
+        "action_time": "2022-10-19T11:32:43.544",
+        "user": [
+            "myk@gmail.com"
+        ],
+        "content_type": [
+            "app",
+            "comment"
+        ],
+        "object_id": "77",
+        "object_repr": "Comment hijh77sese23qwde by hijh77sese23qwde",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 224,
+    "fields": {
+        "action_time": "2022-10-19T11:32:43.922",
+        "user": [
+            "myk@gmail.com"
+        ],
+        "content_type": [
+            "app",
+            "comment"
+        ],
+        "object_id": "78",
+        "object_repr": "Comment tyu by tyu",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 225,
+    "fields": {
+        "action_time": "2022-10-19T11:40:10.645",
+        "user": [
+            "myk@gmail.com"
+        ],
+        "content_type": [
+            "app",
+            "comment"
+        ],
+        "object_id": "79",
+        "object_repr": "Comment w by w",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 226,
+    "fields": {
+        "action_time": "2022-10-19T11:40:10.785",
+        "user": [
+            "myk@gmail.com"
+        ],
+        "content_type": [
+            "app",
+            "comment"
+        ],
+        "object_id": "80",
+        "object_repr": "Comment whs by whs",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 227,
+    "fields": {
+        "action_time": "2022-10-19T11:40:10.917",
+        "user": [
+            "myk@gmail.com"
+        ],
+        "content_type": [
+            "app",
+            "comment"
+        ],
+        "object_id": "81",
+        "object_repr": "Comment whssdszd by whssdszd",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 228,
+    "fields": {
+        "action_time": "2022-10-19T11:40:11.150",
+        "user": [
+            "myk@gmail.com"
+        ],
+        "content_type": [
+            "app",
+            "comment"
+        ],
+        "object_id": "82",
+        "object_repr": "Comment whssdszd by whssdszd",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 229,
+    "fields": {
+        "action_time": "2022-10-19T11:40:11.228",
+        "user": [
+            "myk@gmail.com"
+        ],
+        "content_type": [
+            "app",
+            "comment"
+        ],
+        "object_id": "83",
+        "object_repr": "Comment e by e",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 230,
+    "fields": {
+        "action_time": "2022-10-19T11:40:11.365",
+        "user": [
+            "myk@gmail.com"
+        ],
+        "content_type": [
+            "app",
+            "comment"
+        ],
+        "object_id": "84",
+        "object_repr": "Comment dwkjhsd by dwkjhsd",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 231,
+    "fields": {
+        "action_time": "2022-10-19T11:40:11.473",
+        "user": [
+            "myk@gmail.com"
+        ],
+        "content_type": [
+            "app",
+            "comment"
+        ],
+        "object_id": "85",
+        "object_repr": "Comment dwkjhsd by dwkjhsd",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 232,
+    "fields": {
+        "action_time": "2022-10-19T11:50:18.062",
+        "user": [
+            "myk@gmail.com"
+        ],
+        "content_type": [
+            "app",
+            "comment"
+        ],
+        "object_id": "86",
+        "object_repr": "Comment wjh by wjh",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 233,
+    "fields": {
+        "action_time": "2022-10-19T11:50:18.325",
+        "user": [
+            "myk@gmail.com"
+        ],
+        "content_type": [
+            "app",
+            "comment"
+        ],
+        "object_id": "87",
+        "object_repr": "Comment ww by ww",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 234,
+    "fields": {
+        "action_time": "2022-10-19T11:50:18.405",
+        "user": [
+            "myk@gmail.com"
+        ],
+        "content_type": [
+            "app",
+            "comment"
+        ],
+        "object_id": "88",
+        "object_repr": "Comment sd by sd",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 235,
+    "fields": {
+        "action_time": "2022-10-19T11:50:18.517",
+        "user": [
+            "myk@gmail.com"
+        ],
+        "content_type": [
+            "app",
+            "comment"
+        ],
+        "object_id": "89",
+        "object_repr": "Comment ads by ads",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 236,
+    "fields": {
+        "action_time": "2022-10-19T11:50:18.659",
+        "user": [
+            "myk@gmail.com"
+        ],
+        "content_type": [
+            "app",
+            "comment"
+        ],
+        "object_id": "90",
+        "object_repr": "Comment adssa by adssa",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 237,
+    "fields": {
+        "action_time": "2022-10-19T12:50:38.362",
+        "user": [
+            "myk@gmail.com"
+        ],
+        "content_type": [
+            "app",
+            "sliderpost"
+        ],
+        "object_id": "1",
+        "object_repr": "Russia's President signs decree introducing further restrictions in Kherson, Zaporizhzhia, Donetsk a",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 238,
+    "fields": {
+        "action_time": "2022-10-19T12:51:34.376",
+        "user": [
+            "myk@gmail.com"
+        ],
+        "content_type": [
+            "app",
+            "sliderpost"
+        ],
+        "object_id": "2",
+        "object_repr": "How the Gandhis went from 'Kennedys of India' to the political wilderness",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 239,
+    "fields": {
+        "action_time": "2022-10-19T12:52:51.329",
+        "user": [
+            "myk@gmail.com"
+        ],
+        "content_type": [
+            "app",
+            "sliderpost"
+        ],
+        "object_id": "3",
+        "object_repr": "UK inflation back at 40-year high as food prices soar",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 240,
+    "fields": {
+        "action_time": "2022-10-19T13:09:40.729",
+        "user": [
+            "myk@gmail.com"
+        ],
+        "content_type": [
+            "app",
+            "sliderpost"
+        ],
+        "object_id": "3",
+        "object_repr": "UK inflation back at 40-year high as food prices soar",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 241,
+    "fields": {
+        "action_time": "2022-10-19T13:10:03.267",
+        "user": [
+            "myk@gmail.com"
+        ],
+        "content_type": [
+            "app",
+            "sliderpost"
+        ],
+        "object_id": "2",
+        "object_repr": "How the Gandhis went from 'Kennedys of India' to the political wilderness",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 242,
+    "fields": {
+        "action_time": "2022-10-19T13:10:22.153",
+        "user": [
+            "myk@gmail.com"
+        ],
+        "content_type": [
+            "app",
+            "sliderpost"
+        ],
+        "object_id": "1",
+        "object_repr": "Russia's President signs decree introducing further restrictions in Kherson, Zaporizhzhia, Donetsk a",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 243,
+    "fields": {
+        "action_time": "2022-10-19T13:11:07.199",
+        "user": [
+            "myk@gmail.com"
+        ],
+        "content_type": [
+            "app",
+            "sliderpost"
+        ],
+        "object_id": "1",
+        "object_repr": "Russia's President signs decree introducing further restrictions in Kherson, Zaporizhzhia, Donetsk a",
+        "action_flag": 2,
+        "change_message": "[]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 244,
+    "fields": {
+        "action_time": "2022-10-19T14:29:02.098",
+        "user": [
+            "myk@gmail.com"
+        ],
+        "content_type": [
+            "app",
+            "post"
+        ],
+        "object_id": "14",
+        "object_repr": "",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 245,
+    "fields": {
+        "action_time": "2022-10-19T14:29:02.229",
+        "user": [
+            "myk@gmail.com"
+        ],
+        "content_type": [
+            "app",
+            "post"
+        ],
+        "object_id": "15",
+        "object_repr": "weew",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 246,
+    "fields": {
+        "action_time": "2022-10-19T14:29:02.352",
+        "user": [
+            "myk@gmail.com"
+        ],
+        "content_type": [
+            "app",
+            "post"
+        ],
+        "object_id": "16",
+        "object_repr": "fkhs",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 247,
+    "fields": {
+        "action_time": "2022-10-19T14:31:53.203",
+        "user": [
+            "myk@gmail.com"
+        ],
+        "content_type": [
+            "app",
+            "post"
+        ],
+        "object_id": "17",
+        "object_repr": "Ukraine war: Russians start leaving Ukraine's Kherson city",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 248,
+    "fields": {
+        "action_time": "2022-10-19T14:33:09.776",
+        "user": [
+            "myk@gmail.com"
+        ],
+        "content_type": [
+            "app",
+            "post"
+        ],
+        "object_id": "18",
+        "object_repr": "Elnaz Rekabi: Crowd greet Iranian climber who broke hijab rule on return",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 249,
+    "fields": {
+        "action_time": "2022-10-19T14:33:53.408",
+        "user": [
+            "myk@gmail.com"
+        ],
+        "content_type": [
+            "app",
+            "post"
+        ],
+        "object_id": "19",
+        "object_repr": "Five hours' sleep is tipping point for bad health",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 250,
+    "fields": {
+        "action_time": "2022-10-19T14:43:31.932",
+        "user": [
+            "myk@gmail.com"
+        ],
+        "content_type": [
+            "app",
+            "post"
+        ],
+        "object_id": "20",
+        "object_repr": "Sweden ditches 'feminist foreign policy",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 251,
+    "fields": {
+        "action_time": "2022-10-20T13:02:38.702",
+        "user": [
+            "myk@gmail.com"
+        ],
+        "content_type": [
+            "app",
+            "comment"
+        ],
+        "object_id": "91",
+        "object_repr": "Comment thank you!! by thank you!!",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 252,
+    "fields": {
+        "action_time": "2022-10-20T13:02:38.916",
+        "user": [
+            "myk@gmail.com"
+        ],
+        "content_type": [
+            "app",
+            "comment"
+        ],
+        "object_id": "93",
+        "object_repr": "Comment life can be beautiful when you have the right team by life can be beautiful when you have the right team",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 253,
+    "fields": {
+        "action_time": "2022-10-20T13:02:39.161",
+        "user": [
+            "myk@gmail.com"
+        ],
+        "content_type": [
+            "app",
+            "comment"
+        ],
+        "object_id": "94",
+        "object_repr": "Comment gbbnjm by gbbnjm",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 254,
+    "fields": {
+        "action_time": "2022-10-20T13:02:39.306",
+        "user": [
+            "myk@gmail.com"
+        ],
+        "content_type": [
+            "app",
+            "comment"
+        ],
+        "object_id": "95",
+        "object_repr": "Comment Good In by Good In",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 255,
+    "fields": {
+        "action_time": "2022-10-20T13:02:39.896",
+        "user": [
+            "myk@gmail.com"
+        ],
+        "content_type": [
+            "app",
+            "comment"
+        ],
+        "object_id": "97",
+        "object_repr": "Comment trial by trial",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 256,
+    "fields": {
+        "action_time": "2022-10-20T13:02:40.074",
+        "user": [
+            "myk@gmail.com"
+        ],
+        "content_type": [
+            "app",
+            "comment"
+        ],
+        "object_id": "98",
+        "object_repr": "Comment let's try to delete by let's try to delete",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 257,
+    "fields": {
+        "action_time": "2022-10-20T13:02:40.319",
+        "user": [
+            "myk@gmail.com"
+        ],
+        "content_type": [
+            "app",
+            "comment"
+        ],
+        "object_id": "99",
+        "object_repr": "Comment again by again",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 258,
+    "fields": {
+        "action_time": "2022-10-20T13:02:40.583",
+        "user": [
+            "myk@gmail.com"
+        ],
+        "content_type": [
+            "app",
+            "comment"
+        ],
+        "object_id": "91",
+        "object_repr": "Comment thank you!! by thank you!!",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 259,
+    "fields": {
+        "action_time": "2022-10-20T13:02:40.634",
+        "user": [
+            "myk@gmail.com"
+        ],
+        "content_type": [
+            "app",
+            "comment"
+        ],
+        "object_id": "100",
+        "object_repr": "Comment again and again by again and again",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 260,
+    "fields": {
+        "action_time": "2022-10-20T13:02:40.898",
+        "user": [
+            "myk@gmail.com"
+        ],
+        "content_type": [
+            "app",
+            "comment"
+        ],
+        "object_id": "93",
+        "object_repr": "Comment life can be beautiful when you have the right team by life can be beautiful when you have the right team",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 261,
+    "fields": {
+        "action_time": "2022-10-20T13:02:40.914",
+        "user": [
+            "myk@gmail.com"
+        ],
+        "content_type": [
+            "app",
+            "comment"
+        ],
+        "object_id": "101",
+        "object_repr": "Comment new dawn by new dawn",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 262,
+    "fields": {
+        "action_time": "2022-10-20T13:02:41.097",
+        "user": [
+            "myk@gmail.com"
+        ],
+        "content_type": [
+            "app",
+            "comment"
+        ],
+        "object_id": "94",
+        "object_repr": "Comment gbbnjm by gbbnjm",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 263,
+    "fields": {
+        "action_time": "2022-10-20T13:02:41.197",
+        "user": [
+            "myk@gmail.com"
+        ],
+        "content_type": [
+            "app",
+            "comment"
+        ],
+        "object_id": "102",
+        "object_repr": "Comment okay by okay",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 264,
+    "fields": {
+        "action_time": "2022-10-20T13:02:41.497",
+        "user": [
+            "myk@gmail.com"
+        ],
+        "content_type": [
+            "app",
+            "comment"
+        ],
+        "object_id": "95",
+        "object_repr": "Comment Good In by Good In",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 265,
+    "fields": {
+        "action_time": "2022-10-20T13:02:41.575",
+        "user": [
+            "myk@gmail.com"
+        ],
+        "content_type": [
+            "app",
+            "comment"
+        ],
+        "object_id": "103",
+        "object_repr": "Comment nice by nice",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 266,
+    "fields": {
+        "action_time": "2022-10-20T13:02:41.786",
+        "user": [
+            "myk@gmail.com"
+        ],
+        "content_type": [
+            "app",
+            "comment"
+        ],
+        "object_id": "97",
+        "object_repr": "Comment trial by trial",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 267,
+    "fields": {
+        "action_time": "2022-10-20T13:02:41.898",
+        "user": [
+            "myk@gmail.com"
+        ],
+        "content_type": [
+            "app",
+            "comment"
+        ],
+        "object_id": "108",
+        "object_repr": "Comment me by me",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 268,
+    "fields": {
+        "action_time": "2022-10-20T13:02:42.198",
+        "user": [
+            "myk@gmail.com"
+        ],
+        "content_type": [
+            "app",
+            "comment"
+        ],
+        "object_id": "98",
+        "object_repr": "Comment let's try to delete by let's try to delete",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 269,
+    "fields": {
+        "action_time": "2022-10-20T13:02:42.743",
+        "user": [
+            "myk@gmail.com"
+        ],
+        "content_type": [
+            "app",
+            "comment"
+        ],
+        "object_id": "99",
+        "object_repr": "Comment again by again",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 270,
+    "fields": {
+        "action_time": "2022-10-20T13:02:43.053",
+        "user": [
+            "myk@gmail.com"
+        ],
+        "content_type": [
+            "app",
+            "comment"
+        ],
+        "object_id": "100",
+        "object_repr": "Comment again and again by again and again",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 271,
+    "fields": {
+        "action_time": "2022-10-20T13:02:43.243",
+        "user": [
+            "myk@gmail.com"
+        ],
+        "content_type": [
+            "app",
+            "comment"
+        ],
+        "object_id": "101",
+        "object_repr": "Comment new dawn by new dawn",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 272,
+    "fields": {
+        "action_time": "2022-10-20T13:02:43.443",
+        "user": [
+            "myk@gmail.com"
+        ],
+        "content_type": [
+            "app",
+            "comment"
+        ],
+        "object_id": "102",
+        "object_repr": "Comment okay by okay",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 273,
+    "fields": {
+        "action_time": "2022-10-20T13:02:43.643",
+        "user": [
+            "myk@gmail.com"
+        ],
+        "content_type": [
+            "app",
+            "comment"
+        ],
+        "object_id": "103",
+        "object_repr": "Comment nice by nice",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 274,
+    "fields": {
+        "action_time": "2022-10-20T13:02:43.921",
+        "user": [
+            "myk@gmail.com"
+        ],
+        "content_type": [
+            "app",
+            "comment"
+        ],
+        "object_id": "108",
+        "object_repr": "Comment me by me",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 275,
+    "fields": {
+        "action_time": "2022-10-20T13:03:02.600",
+        "user": [
+            "myk@gmail.com"
+        ],
+        "content_type": [
+            "app",
+            "categories"
+        ],
+        "object_id": "1",
+        "object_repr": "Categories object (1)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 276,
+    "fields": {
+        "action_time": "2022-10-20T13:03:11.400",
+        "user": [
+            "myk@gmail.com"
+        ],
+        "content_type": [
+            "app",
+            "categories"
+        ],
+        "object_id": "2",
+        "object_repr": "Categories object (2)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 277,
+    "fields": {
+        "action_time": "2022-10-20T13:03:19.992",
+        "user": [
+            "myk@gmail.com"
+        ],
+        "content_type": [
+            "app",
+            "categories"
+        ],
+        "object_id": "3",
+        "object_repr": "Categories object (3)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 278,
+    "fields": {
+        "action_time": "2022-10-20T13:03:20.553",
+        "user": [
+            "myk@gmail.com"
+        ],
+        "content_type": [
+            "app",
+            "categories"
+        ],
+        "object_id": "4",
+        "object_repr": "Categories object (4)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 279,
+    "fields": {
+        "action_time": "2022-10-20T13:03:27.358",
+        "user": [
+            "myk@gmail.com"
+        ],
+        "content_type": [
+            "app",
+            "categories"
+        ],
+        "object_id": "5",
+        "object_repr": "Categories object (5)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 280,
+    "fields": {
+        "action_time": "2022-10-20T13:05:17.428",
+        "user": [
+            "myk@gmail.com"
+        ],
+        "content_type": [
+            "app",
+            "categories"
+        ],
+        "object_id": "3",
+        "object_repr": "Sports",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 281,
+    "fields": {
+        "action_time": "2022-10-20T13:30:41.426",
+        "user": [
+            "myk@gmail.com"
+        ],
+        "content_type": [
+            "app",
+            "categories"
+        ],
+        "object_id": "6",
+        "object_repr": "Weather",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 282,
+    "fields": {
+        "action_time": "2022-10-20T13:35:50.016",
+        "user": [
+            "myk@gmail.com"
+        ],
+        "content_type": [
+            "app",
+            "categories"
+        ],
+        "object_id": "7",
+        "object_repr": "Politics",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 283,
+    "fields": {
+        "action_time": "2022-10-20T13:36:04.614",
+        "user": [
+            "myk@gmail.com"
+        ],
+        "content_type": [
+            "app",
+            "categories"
+        ],
+        "object_id": "8",
+        "object_repr": "Medicine",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 284,
+    "fields": {
+        "action_time": "2022-10-20T15:22:40.996",
+        "user": [
+            "myk@gmail.com"
+        ],
+        "content_type": [
+            "app",
+            "post"
+        ],
+        "object_id": "21",
+        "object_repr": "Let's try this out",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Category\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 285,
+    "fields": {
+        "action_time": "2022-10-20T15:22:50.214",
+        "user": [
+            "myk@gmail.com"
+        ],
+        "content_type": [
+            "app",
+            "post"
+        ],
+        "object_id": "20",
+        "object_repr": "Sweden ditches 'feminist foreign policy",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Category\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 286,
+    "fields": {
+        "action_time": "2022-10-20T15:22:57.200",
+        "user": [
+            "myk@gmail.com"
+        ],
+        "content_type": [
+            "app",
+            "post"
+        ],
+        "object_id": "19",
+        "object_repr": "Five hours' sleep is tipping point for bad health",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Category\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 287,
+    "fields": {
+        "action_time": "2022-10-20T15:23:05.825",
+        "user": [
+            "myk@gmail.com"
+        ],
+        "content_type": [
+            "app",
+            "post"
+        ],
+        "object_id": "18",
+        "object_repr": "Elnaz Rekabi: Crowd greet Iranian climber who broke hijab rule on return",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Category\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 288,
+    "fields": {
+        "action_time": "2022-10-20T15:23:14.409",
+        "user": [
+            "myk@gmail.com"
+        ],
+        "content_type": [
+            "app",
+            "post"
+        ],
+        "object_id": "17",
+        "object_repr": "Ukraine war: Russians start leaving Ukraine's Kherson city",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Category\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 289,
+    "fields": {
+        "action_time": "2022-10-20T15:23:28.601",
+        "user": [
+            "myk@gmail.com"
+        ],
+        "content_type": [
+            "app",
+            "post"
+        ],
+        "object_id": "13",
+        "object_repr": "Designing Vacuum Cleaners to Be Green While They Clean",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Category\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 290,
+    "fields": {
+        "action_time": "2022-10-20T15:23:45.135",
+        "user": [
+            "myk@gmail.com"
+        ],
+        "content_type": [
+            "app",
+            "post"
+        ],
+        "object_id": "12",
+        "object_repr": "The Demand and Supply of SiC Power Devices in Current and Future Technologies",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Category\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 291,
+    "fields": {
+        "action_time": "2022-10-20T15:24:01.095",
+        "user": [
+            "myk@gmail.com"
+        ],
+        "content_type": [
+            "app",
+            "post"
+        ],
+        "object_id": "11",
+        "object_repr": "Power Electronics Week Insights: SiC Power Devices, Programmable Speed Regulator and More!",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Category\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 292,
+    "fields": {
+        "action_time": "2022-10-20T15:24:10.495",
+        "user": [
+            "myk@gmail.com"
+        ],
+        "content_type": [
+            "app",
+            "post"
+        ],
+        "object_id": "2",
+        "object_repr": "Designing Vacuum Cleaners to Be Green While They Clean",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Category\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 293,
+    "fields": {
+        "action_time": "2022-10-20T15:24:20.749",
+        "user": [
+            "myk@gmail.com"
+        ],
+        "content_type": [
+            "app",
+            "post"
+        ],
+        "object_id": "3",
+        "object_repr": "Brushed DC Motor Programmable Speed Regulator",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Category\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 294,
+    "fields": {
+        "action_time": "2022-10-20T15:24:29.739",
+        "user": [
+            "myk@gmail.com"
+        ],
+        "content_type": [
+            "app",
+            "post"
+        ],
+        "object_id": "9",
+        "object_repr": "Working Toward Sustainable Semiconductor Device Production",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Category\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 295,
+    "fields": {
+        "action_time": "2022-10-20T15:34:53.020",
+        "user": [
+            "myk@gmail.com"
+        ],
+        "content_type": [
+            "app",
+            "categories"
+        ],
+        "object_id": "10",
+        "object_repr": "Trending",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Name\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 296,
+    "fields": {
+        "action_time": "2022-10-20T15:35:03.934",
+        "user": [
+            "myk@gmail.com"
+        ],
+        "content_type": [
+            "app",
+            "categories"
+        ],
+        "object_id": "11",
+        "object_repr": "Global",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Name\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 297,
+    "fields": {
+        "action_time": "2022-10-20T15:35:33.965",
+        "user": [
+            "myk@gmail.com"
+        ],
+        "content_type": [
+            "app",
+            "categories"
+        ],
+        "object_id": "12",
+        "object_repr": "Lifestyle",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Name\"]}}]"
+    }
+}
+]

@@ -43,7 +43,7 @@ class Post(models.Model):
         ordering = ['-created']
 
     def save(self, *args, **kwargs):
-        self.slug = slugify(self.name[:50])
+        self.slug = slugify(self.title[:50])
         super(Post, self).save(*args, **kwargs)
 
 
@@ -52,15 +52,21 @@ class SliderPost(models.Model):
     title = models.CharField(max_length=100, blank=True, default='')
     description = models.TextField(blank=True, default='')
     image = models.ImageField(upload_to='media')
+    slug = models.SlugField(unique=True, null=True, blank=True)
 
     def __str__(self) -> str:
         return self.title
 
+    def save(self, *args, **kwargs):
+        self.slug = slugify(self.title[:50])
+        super(SliderPost, self).save(*args, **kwargs)
 
-class AdminPost(Post):
-    def __init__(self,):
-        self.status = models.IntegerField(
-            choices=STATUS, default=0, blank=True, null=True)
+
+# class AdminPost(Post):
+#     def __init__(self,):
+#         self.status = models.IntegerField(
+#             choices=STATUS, default=1, blank=True, null=True)
+#         self.language = models.DateField()
 
 
 class Comment(models.Model):
@@ -83,9 +89,3 @@ class NewsLetterEmail(models.Model):
 
     def __str__(self):
         return self.email
-
-    # def laptop(request):
-    # if request.method == 'GET':
-    #     laptops = Laptops.objects.all()
-    #     serializer = LaptopSerializer(laptops, many=True)
-    #     return JsonResponse(serializer.data, safe=False)

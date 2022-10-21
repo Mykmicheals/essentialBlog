@@ -38,15 +38,20 @@ class PostList(generics.ListCreateAPIView):
         serializer.save(owner=self.request.user)
 
 
-class SliderPost(generics.ListCreateAPIView):
+class SliderPostView(generics.ListCreateAPIView):
     queryset = SliderPost.objects.all()
     serializer_class = PostSerializer
-    # permission_classes = [permissions.IsAdminUser]
+
+
+class SliderPostDetail(generics.RetrieveAPIView):
+    queryset = SliderPost.objects.all()
+    serializer_class = PostSerializer
+    lookup_field = 'slug'
 
 
 class AdminPostList(generics.ListAPIView):
     queryset = Post.objects.filter(status=0)
-    serializer_class = AdminPostSerializer
+    serializer_class = PostSerializer
     permission_classes = [permissions.IsAdminUser]
 
 
@@ -63,8 +68,8 @@ class PostDetail(generics.RetrieveUpdateDestroyAPIView):
     serializer_class = PostSerializer
     permission_classes = [permissions.IsAuthenticatedOrReadOnly,
                           IsOwnerOrReadOnly]
-# Create your views here.
-    # lookup_field = 'pk'
+
+    lookup_field = 'slug'
 
 
 class CommentList(generics.ListCreateAPIView):

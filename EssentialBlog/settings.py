@@ -34,6 +34,7 @@ INSTALLED_APPS = [
     'rest_framework',
     'rest_framework.authtoken',
     'channels',
+    'ckeditor',
 ]
 
 MIDDLEWARE = [
@@ -160,9 +161,8 @@ EMAIL_HOST = 'smtp.gmail.com'
 EMAIL_PORT = 587
 EMAIL_USE_SSL = False
 EMAIL_USE_TLS = True
-EMAIL_HOST_USER = 'mykmicheals@gmail.com'
-EMAIL_HOST_PASSWORD = 'ttkkiwsobdxzvgid'
-
+EMAIL_HOST_USER = 'xxxxxxxxxxxxxxxxx'
+EMAIL_HOST_PASSWORD = 'xxxxxxxxxxxxxxxx'
 
 
 DATETIME_FORMAT = '%d-%m-%Y %H:%M:%S'
