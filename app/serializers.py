@@ -31,13 +31,14 @@ class PostSerializer(serializers.ModelSerializer):
     comments = serializers.PrimaryKeyRelatedField(
         many=True, read_only=True, )
     created = serializers.DateTimeField(format="%d-%m-%Y", read_only=True,)
+    owner_id = serializers.ReadOnlyField(source='owner.id')
     # category = serializers.CharField()
 
     class Meta:
         model = Post
-        fields = ['id', 'title', 'description',
-                  'owner', 'comments', 'image', 'created', 'slug']
-        # fields = '__all__'
+        # fields = ['id', 'title', 'description',
+        #           'owner_id', 'comments', 'image', 'created', 'slug']
+        fields = '__all__'
 
 
 class SliderPostSerializer(serializers.ModelSerializer):

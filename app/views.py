@@ -63,8 +63,7 @@ class AdminPostList(generics.ListAPIView):
     permission_classes = [permissions.IsAdminUser]
 
 
-# class EditAdminPostList(generics.RetrieveUpdateDestroyAPIView):
-class EditAdminPostList(generics.RetrieveAPIView):
+class EditAdminPostList(generics.RetrieveUpdateDestroyAPIView):
     queryset = Post.objects.filter(status=0)
     serializer_class = AdminPostSerializer
     permission_classes = [permissions.IsAdminUser]

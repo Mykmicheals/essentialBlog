@@ -26,7 +26,7 @@ class Post(models.Model):
     category = models.ForeignKey(
         Categories, on_delete=models.CASCADE, null=True)
     title = models.CharField(max_length=100, blank=True,)
-    description = RichTextField()
+    description = RichTextField(blank=True)
     slug = models.SlugField(unique=True, null=True, blank=True)
     owner = models.ForeignKey(
         User, related_name='posts', on_delete=models.CASCADE)
@@ -94,3 +94,8 @@ class NewsLetterEmail(models.Model):
 
 class Description(models.Model):
     description = RichTextField()
+
+
+class UserProfile(models.Model):
+    user = models.OneToOneField(User, on_delete=models.CASCADE)
+    image = models.ImageField(upload_to='profile_pictures')

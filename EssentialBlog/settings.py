@@ -17,7 +17,7 @@ DEBUG = True
 
 
 ALLOWED_HOSTS = ['192.168.1.131', '127.0.0.1',
-                 '192.168.0.167', '192.168.0.167']
+                 '192.168.0.167', '192.168.0.167', '192.168.43.163']
 
 # Application definition
 
@@ -35,6 +35,7 @@ INSTALLED_APPS = [
     'rest_framework.authtoken',
     'channels',
     'ckeditor',
+    'comments',
 ]
 
 MIDDLEWARE = [
@@ -49,6 +50,7 @@ MIDDLEWARE = [
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
+
 
 AUTH_USER_MODEL = 'user_auth.MyUser'
 
@@ -86,9 +88,6 @@ TEMPLATES = [
 
 WSGI_APPLICATION = 'EssentialBlog.wsgi.application'
 
-
-# Database
-# https://docs.djangoproject.com/en/4.1/ref/settings/#databases
 
 DATABASES = {
     'default': {
