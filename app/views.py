@@ -22,6 +22,7 @@ class CategoryViews(generics.ListCreateAPIView):
 class UserList(generics.ListAPIView):
     queryset = User.objects.all()
     serializer_class = UserSerializer
+    
 
 
 class UserDetail(generics.RetrieveUpdateDestroyAPIView):
@@ -29,16 +30,25 @@ class UserDetail(generics.RetrieveUpdateDestroyAPIView):
     serializer_class = UserSerializer
 
 
+# class UserProfile(generics.RetrieveUpdateDestroyAPIView):
+#     queryset = UserProfile.objects.all()
+#     serializer_class = UserProfileSerializer
+    
+
+class UserProfile(generics.ListAPIView):
+    queryset = UserProfile.objects.all()
+    serializer_class = UserProfileSerializer
+
+
 class PostList(generics.ListCreateAPIView):
     queryset = Post.objects.filter(status=1)
     serializer_class = PostSerializer
-    print(serializer_class)
+
     # permission_classes = [permissions.IsAuthenticatedOrReadOnly]
     # parser_classes = [MultiPartParser, JSONParser, FormParser]
 
     def perform_create(self, serializer):
         if serializer.is_valid():
-            print(serializer)
             serializer.save(owner=self.request.user)
 
         else:

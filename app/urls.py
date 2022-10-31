@@ -4,6 +4,9 @@ from .views import *
 urlpatterns = [
 
     path('users/', UserList.as_view()),
+    # path('userprofile/<int:pk>/', UserProfile.as_view()),
+    path('userprofile/', UserProfile.as_view()),
+
     path('users/<int:pk>/', UserDetail.as_view()),
     path('posts/', PostList.as_view()),
     path('categories/', CategoryViews.as_view()),
@@ -18,6 +21,7 @@ urlpatterns = [
     path('comments/<int:pk>/', CommentDetail.as_view()),
     path('newsletter/', NewsletterEmail.as_view()),
     path('description/', DescriptionView.as_view()),
+
     # path('category/', getCategories),
 
 ]

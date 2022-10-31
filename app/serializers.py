@@ -1,4 +1,4 @@
-from dataclasses import field
+from dataclasses import field, fields
 from pyexpat import model
 from unicodedata import category
 from django.utils.text import slugify
@@ -10,14 +10,39 @@ from .models import *
 User = get_user_model()
 
 
+class UserProfileSerializer(serializers.ModelSerializer):
+    first_name = serializers.ReadOnlyField(source='user.first_name')
+    last_name = serializers.ReadOnlyField(source='user.last_name')
+
+    class Meta:
+        model = UserProfile
+        fields = '__all__'
+
+
 class UserSerializer(serializers.ModelSerializer):
+    profile = UserProfileSerializer(required=True)
     posts = serializers.PrimaryKeyRelatedField(many=True, read_only=True,)
     comments = serializers.PrimaryKeyRelatedField(many=True, read_only=True)
 
     class Meta:
         model = User
         fields = ['id', 'first_name', 'posts',
-                  'comments', 'is_staff', 'last_name']
+                  'comments', 'is_staff', 'last_name', 'profile']
+
+        def create(self, validated_data):
+
+            # create user
+            user = User.objects.create(
+            url=validated_data['url'],
+            email=validated_data['email'],
+            # etc ...
+        )
+
+            profile_data = validated_data.pop('profile')
+            
+      
+
+            return user
 
 
 class CategorySerializer(serializers.ModelSerializer):
