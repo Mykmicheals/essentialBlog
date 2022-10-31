@@ -15,32 +15,38 @@ class UserProfileSerializer(serializers.ModelSerializer):
     last_name = serializers.ReadOnlyField(source='user.last_name')
 
     class Meta:
-        model = UserProfile
+        model = Profile
         fields = '__all__'
+
+
+class UserPostSerializer(serializers.ModelSerializer):
+    class Meta:
+        model = Post
+        fields = ['title', 'description']
 
 
 class UserSerializer(serializers.ModelSerializer):
     profile = UserProfileSerializer(required=True)
-    posts = serializers.PrimaryKeyRelatedField(many=True, read_only=True,)
+    posts = UserPostSerializer(many=True, read_only=True)
     comments = serializers.PrimaryKeyRelatedField(many=True, read_only=True)
 
     class Meta:
         model = User
         fields = ['id', 'first_name', 'posts',
                   'comments', 'is_staff', 'last_name', 'profile']
+        depth = 1
 
         def create(self, validated_data):
-
-            # create user
             user = User.objects.create(
-            url=validated_data['url'],
-            email=validated_data['email'],
-            # etc ...
-        )
-
+                # url=validated_data['url'],
+                email=validated_data['email'],
+                # etc ...
+            )
             profile_data = validated_data.pop('profile')
-            
-      
+            profile = Profile.objects.create(
+                user=user,
+                first_name=profile_data['first_name'],
+            )
 
             return user
 

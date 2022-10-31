@@ -16,4 +16,4 @@ class MyUserAdmin(EmailUserAdmin):
 
 
 admin.site.unregister(get_user_model())
-admin.site.register(get_user_model(), MyUserAdmin)
+admin.site.register(get_user_model())

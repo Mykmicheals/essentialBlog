@@ -96,7 +96,7 @@ class Description(models.Model):
     description = RichTextField()
 
 
-class UserProfile(models.Model):
+class Profile(models.Model):
     user = models.OneToOneField(User, on_delete=models.CASCADE)
     image = models.ImageField(upload_to='profile_pictures')
 
