@@ -9,4 +9,6 @@ from authemail.models import EmailUserManager, EmailAbstractUser
 
 class MyUser(EmailAbstractUser):
 
+    phone = models.CharField('phone', max_length=15, blank=True)
+
     objects = EmailUserManager()

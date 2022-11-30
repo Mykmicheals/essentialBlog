@@ -17,7 +17,7 @@ DEBUG = True
 
 
 ALLOWED_HOSTS = ['192.168.1.131', '127.0.0.1',
-                 '192.168.0.167', '192.168.0.167', '192.168.43.163']
+                 '192.168.0.167', '192.168.0.167', '192.168.43.163', '192.168.0.168']
 
 # Application definition
 
@@ -36,6 +36,8 @@ INSTALLED_APPS = [
     'channels',
     'ckeditor',
     'comments',
+    "corsheaders",
+    "django_nextjs",
 ]
 
 MIDDLEWARE = [

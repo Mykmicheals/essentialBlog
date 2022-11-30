@@ -1,6 +1,4 @@
-from dataclasses import field, fields
-from pyexpat import model
-from unicodedata import category
+
 from django.utils.text import slugify
 from rest_framework import serializers
 from django.contrib.auth import get_user_model
@@ -28,27 +26,12 @@ class UserPostSerializer(serializers.ModelSerializer):
 class UserSerializer(serializers.ModelSerializer):
     profile = UserProfileSerializer(required=True)
     posts = UserPostSerializer(many=True, read_only=True)
-    comments = serializers.PrimaryKeyRelatedField(many=True, read_only=True)
 
     class Meta:
         model = User
-        fields = ['id', 'first_name', 'posts',
-                  'comments', 'is_staff', 'last_name', 'profile']
+        fields = ['id', 'first_name', 'email', 'posts',
+                  'is_staff', 'last_name', 'profile', ]
         depth = 1
-
-        def create(self, validated_data):
-            user = User.objects.create(
-                # url=validated_data['url'],
-                email=validated_data['email'],
-                # etc ...
-            )
-            profile_data = validated_data.pop('profile')
-            profile = Profile.objects.create(
-                user=user,
-                first_name=profile_data['first_name'],
-            )
-
-            return user
 
 
 class CategorySerializer(serializers.ModelSerializer):
@@ -63,7 +46,7 @@ class PostSerializer(serializers.ModelSerializer):
         many=True, read_only=True, )
     created = serializers.DateTimeField(format="%d-%m-%Y", read_only=True,)
     owner_id = serializers.ReadOnlyField(source='owner.id')
-    # category = serializers.CharField()
+    category = CategorySerializer()
 
     class Meta:
         model = Post
@@ -113,3 +96,10 @@ class DescritionSerializer(serializers.ModelSerializer):
     class Meta:
         model = Description
         fields = '__all__'
+
+
+class NewsSerializer(serializers.ModelSerializer):
+    class Meta:
+        model = News
+        fields = '__all__'
+        depth = 1

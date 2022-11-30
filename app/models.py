@@ -21,10 +21,29 @@ class Categories(models.Model):
         ordering = ['id']
 
 
+class News(models.Model):
+    category = models.ForeignKey(
+        Categories, on_delete=models.CASCADE, null=True, blank=True)
+    title = models.TextField(blank=True,)
+    description = RichTextField(blank=True)
+  #  image = models.ImageField(upload_to='media', null=True, blank=True)
+    slug = RichTextField(unique=True, null=True,
+                         blank=True,)
+    image = models.URLField(blank=True)
+    created = models.DateTimeField(auto_now_add=True, null=True, blank=True)
+
+    def __str__(self) -> str:
+        return self.title
+
+    def save(self, *args, **kwargs):
+        self.slug = slugify(self.title[:50])
+        super(News, self).save(*args, **kwargs)
+
+
 class Post(models.Model):
     created = models.DateTimeField(auto_now_add=True)
     category = models.ForeignKey(
-        Categories, on_delete=models.CASCADE, null=True)
+        Categories, on_delete=models.CASCADE, null=True, blank=True)
     title = models.CharField(max_length=100, blank=True,)
     description = RichTextField(blank=True)
     slug = models.SlugField(unique=True, null=True, blank=True)
@@ -54,6 +73,8 @@ class SliderPost(models.Model):
     description = models.TextField(blank=True, default='')
     image = models.ImageField(upload_to='media')
     slug = models.SlugField(unique=True, null=True, blank=True)
+    category = models.ForeignKey(
+        Categories, on_delete=models.CASCADE, null=True)
 
     def __str__(self) -> str:
         return self.title
@@ -98,7 +119,14 @@ class Description(models.Model):
 
 class Profile(models.Model):
     user = models.OneToOneField(User, on_delete=models.CASCADE)
-    image = models.ImageField(upload_to='profile_pictures')
+    image = models.ImageField(
+        upload_to='profile_pictures', blank=True, null=True)
+
+    username = models.CharField(max_length=100, null=True, blank=True)
 
     def __str__(self):
-      return f'{self.user.first_name} Profile'
+        return f'{self.user.first_name} Profile'
+
+
+class TrendingNews(Post):
+    pass

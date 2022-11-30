@@ -9,4 +9,5 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('', include('app.urls')),
     path('', include('authemail.urls')),
+    path("next/", include("django_nextjs.urls")),
 ] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)

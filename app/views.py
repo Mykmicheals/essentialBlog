@@ -1,5 +1,7 @@
 
-from urllib.parse import parse_qs
+from turtle import title
+import requests
+from django.core.management.base import BaseCommand
 from django.http import HttpResponse, JsonResponse
 from django.db.models import F
 from rest_framework.parsers import MultiPartParser, FormParser, JSONParser
@@ -23,27 +25,39 @@ class UserList(generics.ListAPIView):
     queryset = User.objects.all()
     serializer_class = UserSerializer
 
-    def post(self, request, format=None):
-        serializer = UserSerializer(data=request.data)
-        if serializer.is_valid():
-            serializer.save()
-            return Response(serializer.data, status=status.HTTP_201_CREATED)
-        return Response(serializer.errors, status=status.HTTP_400_BAD_REQUEST)
-
 
 class UserDetail(generics.RetrieveUpdateDestroyAPIView):
     queryset = User.objects.all()
     serializer_class = UserSerializer
 
+    def update(self, request, *args, **kwargs):
+        instance = self.get_object()
+        serializer = self.get_serializer(
+            instance, data=request.data, partial=True)
 
-# class UserProfile(generics.RetrieveUpdateDestroyAPIView):
-#     queryset = UserProfile.objects.all()
-#     serializer_class = UserProfileSerializer
+        if serializer.is_valid():
+            serializer.save()
+            return Response({"sucess": "Post has been updated"})
+
+        else:
+            return Response({"failed": "failed", "details": serializer.errors})
 
 
-class UserProfile(generics.ListAPIView):
+class UserProfile(generics.RetrieveUpdateDestroyAPIView):
     queryset = Profile.objects.all()
     serializer_class = UserProfileSerializer
+
+    def update(self, request, *args, **kwargs):
+        instance = self.get_object()
+        serializer = self.get_serializer(
+            instance, data=request.data, partial=True)
+
+        if serializer.is_valid():
+            serializer.save()
+            return Response({"sucess": "Profile has been updated"})
+
+        else:
+            return Response({"failed": "failed", "details": serializer.errors})
 
 
 class PostList(generics.ListCreateAPIView):
@@ -53,13 +67,13 @@ class PostList(generics.ListCreateAPIView):
     # permission_classes = [permissions.IsAuthenticatedOrReadOnly]
     # parser_classes = [MultiPartParser, JSONParser, FormParser]
 
-    def perform_create(self, serializer):
-        if serializer.is_valid():
-            serializer.save(owner=self.request.user)
+    # def perform_create(self, serializer):
+    #     if serializer.is_valid():
+    #         serializer.save(owner=self.request.user)
 
-        else:
-            content = {'failure': ('Please Don"t crash my database.I beg you')}
-            return Response(content, status=status.HTTP_400_BAD_REQUEST)
+    #     else:
+    #         content = {'failure': ('Please Don"t crash my database.I beg you')}
+    #         return Response(content, status=status.HTTP_400_BAD_REQUEST)
 
 
 class SliderPostView(generics.ListCreateAPIView):
@@ -84,6 +98,18 @@ class EditAdminPostList(generics.RetrieveUpdateDestroyAPIView):
     serializer_class = AdminPostSerializer
     permission_classes = [permissions.IsAdminUser]
     lookup_field = 'slug'
+
+    def update(self, request, *args, **kwargs):
+        instance = self.get_object()
+        serializer = self.get_serializer(
+            instance, data=request.data, partial=True)
+
+        if serializer.is_valid():
+            serializer.save()
+            return Response({"message": "Post has been updated"})
+
+        else:
+            return Response({"message": "failed", "details": serializer.errors})
 
 
 class PostDetail(generics.RetrieveUpdateDestroyAPIView):
@@ -119,3 +145,19 @@ class NewsletterEmail(generics.CreateAPIView):
 class DescriptionView(generics.ListCreateAPIView):
     queryset = Description.objects.all()
     serializer_class = DescritionSerializer
+
+
+class ShowNews(generics.ListAPIView):
+    queryset = News.objects.all()
+    serializer_class = NewsSerializer
+
+
+class NewsDetail(generics.RetrieveAPIView):
+    queryset = News.objects.all()
+    serializer_class = NewsSerializer
+    lookup_field = 'slug'
+
+
+
+
+    
